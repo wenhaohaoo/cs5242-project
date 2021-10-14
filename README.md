@@ -7,7 +7,7 @@ The project seeks to first process a given picture by extracting the faces, stan
 
 ## Proposed Solution
 ### Data Collection
-Use Google Images API to search for faces with specified emotion, e.g. “happy man” and save the file. For example, a raw image obtained using the search keyword “happy man” would have the true label for emotion identified as “happy” and gender identified as “male”. This would form the raw dataset of our project.
+Use Google Images to search for faces with specified emotion, e.g. “happy man” and save the file. For example, a raw image obtained using the search keyword “happy man” would have the true label for emotion identified as “happy” and gender identified as “male”. This would form the raw dataset of our project. Selenium is used to automate the scraping from Google Images using the chromedriver.
 
 ### Data Pre-processing
 Use OpenCV library to detect faces in the raw images gathered during preprocessing to get the bounding box and crop to apply standardisation like image resizing, grayscale filter, etc. If there are multiple faces in a raw image, the true label of the face images would be broadcasted accordingly based on the true label assigned to the raw image.
