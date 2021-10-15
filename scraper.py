@@ -5,7 +5,25 @@ import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from tqdm import tqdm
+
+
+def init_driver():
+    chromedriver = Service(ChromeDriverManager().install())
+
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-web-security')
+    options.add_argument('--allow-running-insecure-content')
+    options.add_argument('--allow-cross-origin-auth-prompt')
+
+    driver = webdriver.Chrome(service=chromedriver, options=options)
+    driver.maximize_window()
+    return driver
 
 
 def scroll_down(driver, wait_time):
@@ -48,59 +66,67 @@ def scroll_down(driver, wait_time):
             return
 
 
+def get_image_url(driver, search_term, dev=False):
+    
+    base_url = f'https://www.google.com/search?q={search_term}&tbm=isch&ijn=0'
+    driver.get(base_url)
 
-chromedriver = ChromeDriverManager().install()
+    # Scroll all the way down to load all images
+    scroll_down(driver, 2)
 
-options = Options()
+    # Get list of image thumbnails to extract
+    parent_elem = driver.find_element(By.XPATH, '/html/body/div[2]/c-wiz/div[3]/div[1]/div/div/div/div[1]/div[1]/span/div[1]/div[1]')
+    all_children = parent_elem.find_elements(By.XPATH, '*')
+    print(f'Total results found: {len(all_children)}')
 
-options.add_argument('--headless')
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-gpu')
-options.add_argument('--disable-web-security')
-options.add_argument('--allow-running-insecure-content')
-options.add_argument('--allow-cross-origin-auth-prompt')
-driver = webdriver.Chrome(chromedriver, options=options)
-driver.maximize_window()
-base_url = 'https://www.google.com/search?q={}&tbm=isch&ijn=0'
-driver.get(base_url.format('happy man'))
+    def _scrape(list, retry=False, images = {'date': str(datetime.datetime.now())}, dev=False):
 
-# Scroll all the way down to load all images
-scroll_down(driver, 2)
+        if dev:
+           list = list[:50]
 
-# Get list of image thumnails to extract
-parent_elem = driver.find_element(By.XPATH, '/html/body/div[2]/c-wiz/div[3]/div[1]/div/div/div/div[1]/div[1]/span/div[1]/div[1]')
-all_children = parent_elem.find_elements(By.XPATH, '*')
-print(f'Total results found: {len(all_children)}')
+        retry_list = []
 
-images = {'date': str(datetime.datetime.now())}
-data_list = []
+        for idx, img in enumerate(tqdm(list, desc=f'search_term={search_term} | is_retry={not retry} ')):
+            try:
+                # Filter for only image thumbnails
+                if img.get_attribute('class') == 'isv-r PNCib MSM1fd BUooTd':
+                    
+                    # Click on image thumbnail
+                    img.click()
+                    image = driver.find_element(By.XPATH, '/html/body/div[2]/c-wiz/div[3]/div[2]/div[3]/div/div/div[3]/div[2]/c-wiz/div/div[1]/div[1]/div[2]/div/a/img')
+                    
+                    # Workaround to get original image src
+                    image.click()
+                    time.sleep(3)
 
-for idx, img in enumerate(all_children):
-    try:
-        # Filter for only image
-        if img.get_attribute('class') == 'isv-r PNCib MSM1fd BUooTd':
-            
-            # Click on image thumbnail
-            img.click()
-            image = driver.find_element(By.XPATH, '/html/body/div[2]/c-wiz/div[3]/div[2]/div[3]/div/div/div[3]/div[2]/c-wiz/div/div[1]/div[1]/div[2]/div/a/img')
-            
-            # Workaround to get original image src
-            image.click()
-            time.sleep(4)
+                    # Retrieve 'src' attribute from the element
+                    img_src = image.get_attribute('src')
+                    if img_src.startswith('http'):
+                        images[idx] = img_src
 
-            # Retrieve 'src' attribute from the element
-            img_src = image.get_attribute('src')
-            print(f'{idx}: {img_src}')
-            if img_src.startswith('http'):
-                images[idx] = img_src
-            else:
-                data_list.append(idx)
-        else:
-            print(f'{idx}: not an image')
-    except Exception as e:
-        print(f'{idx} error: {e}')
-        pass
+            except Exception as e:
+                if retry:
+                    print(f'appending {idx} to retry list')
+                    retry_list.append(all_children[idx])
+                pass
+        
+        return images, retry_list
+    
+    # First pass
+    images, retry_list = _scrape(all_children, retry=True, dev=True)
+    print(f'Total image URLs extracted in first pass: {len(images)}')
 
-with open('happy man.json', 'w') as f:
-    f.write(json.dumps(images))
-driver.close()
+    # Retry those with ElementClickInterceptedException 
+    if retry_list:
+        images, _ = _scrape(retry_list, images=images)
+        print(f'Total image URLs extracted after retrying: {len(images)}')
+
+    # Write URLs to json file
+    with open(f'{search_term}.json', 'w') as f:
+        f.write(json.dumps(images))
+
+
+if __name__ == "__main__":
+    driver = init_driver()
+    get_image_url(driver, 'happy_man', dev=True)
+    driver.close()
