@@ -1,6 +1,7 @@
+import json
 import time
 import datetime
-import json
+import argparse
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -71,6 +72,8 @@ def get_image_url(driver, search_term, dev=False):
     base_url = f'https://www.google.com/search?q={search_term}&tbm=isch&ijn=0'
     driver.get(base_url)
 
+    print(f'Search term: {search_term}')
+
     # Scroll all the way down to load all images
     scroll_down(driver, 2)
 
@@ -127,6 +130,14 @@ def get_image_url(driver, search_term, dev=False):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-s",
+        default="happy man",
+        help="search term to scrape images from",
+    )
+
+    args = parser.parse_args()
     driver = init_driver()
-    get_image_url(driver, 'happy_man', dev=True)
+    get_image_url(driver, args.s, dev=True)
     driver.close()
