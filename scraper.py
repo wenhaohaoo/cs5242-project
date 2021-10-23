@@ -3,6 +3,7 @@ import json
 import time
 import datetime
 import argparse
+from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -68,13 +69,13 @@ def scroll_down(driver, wait_time):
             return
 
 
-def get_image_url(driver, search_term, dev=False):
+def get_image_url(driver, search_term, dev=False, output_root=Path('./')):
 
     print(f'Search term: {search_term}')
 
     images = {}
     try:
-        with open(f'{search_term}.json', 'r') as f:
+        with open(output_root/f'{search_term}.json', 'r') as f:
             images = json.loads(f)
             images['date'] = str(datetime.datetime.now())
     except FileNotFoundError:
@@ -138,7 +139,7 @@ def get_image_url(driver, search_term, dev=False):
         print(f'Total image URLs extracted after retrying: {len(images)}')
 
     # Write URLs to json file
-    with open(f'{search_term}.json', 'w') as f:
+    with open(output_root/f'{search_term}.json', 'w') as f:
         f.write(json.dumps(images))
 
 
@@ -149,8 +150,14 @@ if __name__ == "__main__":
         default='happy man',
         help='search term to scrape images from',
     )
+    parser.add_argument(
+        '-o',
+        default='./',
+        help='output root directory',
+    )
 
     args = parser.parse_args()
     driver = init_driver()
-    get_image_url(driver, args.s, dev=True)
+    Path(args.o).mkdir(parents=True, exist_ok=True)
+    get_image_url(driver, args.s, dev=True, output_root=Path(args.o))
     driver.close()

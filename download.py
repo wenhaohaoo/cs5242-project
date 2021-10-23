@@ -5,11 +5,11 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-def download(file_name):
+def download(file_name, output_root=Path('./')):
     print(f'Search term: {file_name}')
-    
-    Path(f'images/{file_name}').mkdir(parents=True, exist_ok=True)
-    with open(f'{file_name}.json') as f:
+
+    (output_root/f'images/{file_name}').mkdir(parents=True, exist_ok=True)
+    with open(output_root/f'{file_name}.json') as f:
         images = json.loads(f.read())
     
     for k, v in tqdm(images.items(), desc=f'search_term={file_name} '):
@@ -20,12 +20,10 @@ def download(file_name):
         if k != 'date': 
             r = requests.get(v)
             if r.status_code == 200:
-                with open(f'images/{file_name}/' + name, 'wb') as f:
+                with open(output_root/f'images/{file_name}/{name}', 'wb') as f:
                     f.write(r.content)
             else:
-                print(r.status_code)
-                print(k)
-                print(v)
+                print(f'failed: {k}, {v}, {r.status_code}')
 
 
 if __name__ == "__main__":
@@ -35,6 +33,12 @@ if __name__ == "__main__":
         default='happy man',
         help='search term to download images from',
     )
+    parser.add_argument(
+        '-o',
+        default='./',
+        help='output root directory',
+    )
 
     args = parser.parse_args()
-    download(args.s)
+    Path(args.o).mkdir(parents=True, exist_ok=True)
+    download(args.s, output_root=Path(args.o))
