@@ -76,7 +76,7 @@ def get_image_url(driver, search_term, dev=False, output_root=Path('./')):
     images = {}
     try:
         with open(output_root/f'{search_term}.json', 'r') as f:
-            images = json.loads(f)
+            images = json.loads(f.read())
             images['date'] = str(datetime.datetime.now())
     except FileNotFoundError:
         print('No prevous results found, starting new search')
