@@ -6,6 +6,8 @@ from pathlib import Path
 from tqdm import tqdm
 
 def download(file_name):
+    print(f'Search term: {file_name}')
+    
     Path(f'images/{file_name}').mkdir(parents=True, exist_ok=True)
     with open(f'{file_name}.json') as f:
         images = json.loads(f.read())
