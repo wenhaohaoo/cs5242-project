@@ -18,7 +18,7 @@ def download(file_name, output_root=Path('./')):
             name += '.jpg'
         
         if k != 'date': 
-            r = requests.get(v)
+            r = requests.get(v, verify=False)
             if r.status_code == 200:
                 with open(output_root/f'images/{file_name}/{name}', 'wb') as f:
                     f.write(r.content)
