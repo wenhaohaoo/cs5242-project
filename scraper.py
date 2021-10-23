@@ -1,3 +1,4 @@
+import ast
 import json
 import time
 import datetime
@@ -68,11 +69,20 @@ def scroll_down(driver, wait_time):
 
 
 def get_image_url(driver, search_term, dev=False):
-    
-    base_url = f'https://www.google.com/search?q={search_term}&tbm=isch&ijn=0'
-    driver.get(base_url)
 
     print(f'Search term: {search_term}')
+
+    images = {}
+    try:
+        with open(f'{search_term}.json', 'r') as f:
+            images = json.loads(f)
+            images['date'] = str(datetime.datetime.now())
+    except FileNotFoundError:
+        print('No prevous results found, starting new search')
+        pass
+
+    base_url = f'https://www.google.com/search?q={search_term}&tbm=isch&ijn=0'
+    driver.get(base_url)
 
     # Scroll all the way down to load all images
     scroll_down(driver, 2)
@@ -86,6 +96,8 @@ def get_image_url(driver, search_term, dev=False):
 
         if dev:
            list = list[:50]
+
+        image_set = set(images.values())
 
         retry_list = []
 
@@ -104,8 +116,9 @@ def get_image_url(driver, search_term, dev=False):
 
                     # Retrieve 'src' attribute from the element
                     img_src = image.get_attribute('src')
-                    if img_src.startswith('http'):
+                    if img_src.startswith('http') and img_src not in image_set:
                         images[idx] = img_src
+                        image_set.add(img_src)
 
             except Exception as e:
                 if retry:
@@ -132,9 +145,9 @@ def get_image_url(driver, search_term, dev=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-s",
-        default="happy man",
-        help="search term to scrape images from",
+        '-s',
+        default='happy man',
+        help='search term to scrape images from',
     )
 
     args = parser.parse_args()
