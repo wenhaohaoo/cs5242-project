@@ -123,7 +123,7 @@ def get_image_url(driver, search_term, dev=False, output_root=Path('./'), resume
 
         retry_list = []
 
-        for idx, img in enumerate(list):
+        for idx, img in enumerate(tqdm(list, desc=f'search_term={search_term} | is_retry={not retry} ')):
             try:
                 # Filter for only image thumbnails
                 if img.get_attribute('class') == 'isv-r PNCib MSM1fd BUooTd':
@@ -150,7 +150,7 @@ def get_image_url(driver, search_term, dev=False, output_root=Path('./'), resume
             if idx%10 == 0:
                 _save(images)
 
-            logging.info(f'{starting_pt+idx+1}/{original_len}')
+            # logging.info(f'{starting_pt+idx+1}/{original_len}')
         
         return images, retry_list
 
@@ -184,12 +184,23 @@ if __name__ == "__main__":
         default=None,
         help='index to resume from',
     )
+    parser.add_argument(
+        '-d',
+        default=None,
+        help='whether to run in dev mode',
+    )
 
     args = parser.parse_args()
     driver = init_driver()
     Path(args.o).mkdir(parents=True, exist_ok=True)
     if not args.r:
-        get_image_url(driver, args.s, dev=False, output_root=Path(args.o))
+        if not args.d:
+            get_image_url(driver, args.s, dev=False, output_root=Path(args.o))
+        else:
+            get_image_url(driver, args.s, dev=True, output_root=Path(args.o))
     else:
-        get_image_url(driver, args.s, dev=False, output_root=Path(args.o), resume=args.r)
+        if not args.d:
+            get_image_url(driver, args.s, dev=False, output_root=Path(args.o), resume=args.r)
+        else:
+            get_image_url(driver, args.s, dev=True, output_root=Path(args.o), resume=args.r)
     driver.close()
