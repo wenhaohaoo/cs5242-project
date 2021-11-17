@@ -1,3 +1,11 @@
 __pycache__
 .DS_Store
 *.json
+*.ipynb_checkpoints/
+dag*.py
+*.txt
+images/*
+!images/scrape-man.png
+!images/scrape-woman.png
+!images/download-preprocess.png
+!images/monitor.png

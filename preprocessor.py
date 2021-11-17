@@ -1,12 +1,16 @@
 import os
 import argparse
+import logging
 from pathlib import Path
 
 import cv2
 from tqdm import tqdm
 
+log_format = '[%(asctime)s] [%(levelname)s] - %(message)s'
+logging.basicConfig(level=logging.INFO, format=log_format)
+
 def preprocess(dir, output_root=Path('./')):
-    print(f'Search term: {dir}')
+    logging.info(f'Search term: {dir}')
 
     image_list = os.listdir(output_root/f'images/{dir}')
     (output_root/f'images/{dir}/faces').mkdir(parents=True, exist_ok=True)
@@ -40,7 +44,7 @@ def preprocess(dir, output_root=Path('./')):
 
                     count += 1
             except Exception as e:
-                print(f'failed {count}, {image}, {e}')
+                logging.error(f'failed {count}, {image}, {e}')
                 pass
 
 
