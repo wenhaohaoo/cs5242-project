@@ -7,7 +7,7 @@ Git repo: https://github.com/wenhaohaoo/cs5242-project
 - Lau Wen Hao (A0121528M)
 - Ng Gin Wen (A0142949U)
 
-## Project Motivation & Descrition
+## Project Motivation & Description
 Face detection and emotion recognition has many common applications in the area of surveillance systems, criminology, security, psychology, biometric authentication (Rahman et al., 2015), social robotics and many other human-computer interaction systems (Li & Deng, 2020).
 
 The project seeks to first process a given picture by extracting the faces, standardise the face images, before carrying out classification tasks. We would classify the face images into seven different emotions (angry, disgusted, fearful, happy, neutral, sad and surprised) and gender (male/female).
