@@ -1,0 +1,425 @@
+['train', 'validation']
+Train Classes - ['fear', 'surprise', 'angry', 'happy', 'neutral', 'disgust', 'sad']
+Validation Classes - ['fear', 'surprise', 'angry', 'happy', 'neutral', 'disgust', 'sad']
+cuda
+VGG_convnet(
+  (conv1a): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv1b): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop1): Dropout(p=0.5, inplace=False)
+  (conv2a): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv2b): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop2): Dropout(p=0.5, inplace=False)
+  (conv3a): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv3b): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop3): Dropout(p=0.5, inplace=False)
+  (conv4a): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool4): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (linear1): Linear(in_features=4608, out_features=4096, bias=True)
+  (linear2): Linear(in_features=4096, out_features=4096, bias=True)
+  (linear3): Linear(in_features=4096, out_features=10, bias=True)
+)
+There are 38025162 (38.03 million) parameters in this neural network
+epoch= 0 	 time= 1.3718736052513123 min 	 loss= 1.849317129591237 	 error= 75.57719856759776 percent
+error rate on test set = 75.36111109786563 percent
+epoch= 1 	 time= 2.030494248867035 min 	 loss= 1.8135094093239825 	 error= 75.16135324602541 percent
+error rate on test set = 76.26388954619566 percent
+epoch= 2 	 time= 2.4095693190892535 min 	 loss= 1.790868441954903 	 error= 75.24985544577889 percent
+error rate on test set = 74.01388982931772 percent
+epoch= 3 	 time= 2.7747315565745034 min 	 loss= 1.761494106417117 	 error= 72.33198126502658 percent
+error rate on test set = 68.13293732702732 percent
+epoch= 4 	 time= 3.1294161478678384 min 	 loss= 1.6887302127091781 	 error= 67.58570120645606 percent
+error rate on test set = 61.16964349316226 percent
+epoch= 5 	 time= 3.497291378180186 min 	 loss= 1.5923785180630892 	 error= 62.701836648194686 percent
+error rate on test set = 59.8343261414104 percent
+epoch= 6 	 time= 3.855922532081604 min 	 loss= 1.5283331307120944 	 error= 59.522706208021745 percent
+error rate on test set = 55.69246117439535 percent
+epoch= 7 	 time= 4.175288665294647 min 	 loss= 1.4680356989736143 	 error= 57.27729576566944 percent
+error rate on test set = 52.848215566741096 percent
+epoch= 8 	 time= 4.496195145448049 min 	 loss= 1.4117624583451645 	 error= 54.54145028280175 percent
+error rate on test set = 54.246032527751396 percent
+epoch= 9 	 time= 4.830907952785492 min 	 loss= 1.352249901605689 	 error= 51.99613649948783 percent
+error rate on test set = 49.15377133422428 percent
+epoch= 10 	 time= 5.15872700214386 min 	 loss= 1.3122932184260825 	 error= 50.677102669425636 percent
+error rate on test set = 48.25694544447793 percent
+epoch= 11 	 time= 5.514606153964996 min 	 loss= 1.2790468142343605 	 error= 49.18724768058114 percent
+error rate on test set = 48.11805685361226 percent
+epoch= 12 	 time= 5.873758860429128 min 	 loss= 1.2460105353852977 	 error= 47.56831055102141 percent
+error rate on test set = 45.25992187360923 percent
+epoch= 13 	 time= 6.238060688972473 min 	 loss= 1.2121591065240942 	 error= 46.24966318710991 percent
+error rate on test set = 44.53472341928217 percent
+epoch= 14 	 time= 6.590191078186035 min 	 loss= 1.1899315622578497 	 error= 45.34647468898607 percent
+error rate on test set = 43.690477311611176 percent
+epoch= 15 	 time= 6.9374648610750835 min 	 loss= 1.1686576745821082 	 error= 44.59401103724604 percent
+error rate on test set = 44.81547760466735 percent
+epoch= 16 	 time= 7.274806336561839 min 	 loss= 1.1524904959098152 	 error= 44.19555705526601 percent
+error rate on test set = 43.07936636937989 percent
+epoch= 17 	 time= 7.6254169543584185 min 	 loss= 1.141301527645277 	 error= 43.35729600035626 percent
+error rate on test set = 42.31250141229894 percent
+epoch= 18 	 time= 7.983326089382172 min 	 loss= 1.123620274481566 	 error= 42.838648692421295 percent
+error rate on test set = 41.387898061010574 percent
+epoch= 19 	 time= 8.337610133488973 min 	 loss= 1.1014421835152999 	 error= 41.77816572396652 percent
+error rate on test set = 42.90079499284427 percent
+epoch= 20 	 time= 8.697598059972128 min 	 loss= 1.087573841240095 	 error= 41.37082270953966 percent
+error rate on test set = 41.14881083369255 percent
+epoch= 21 	 time= 9.058143587907155 min 	 loss= 1.0750123213685077 	 error= 40.67362459846165 percent
+error rate on test set = 41.18750128481123 percent
+epoch= 22 	 time= 9.42051895459493 min 	 loss= 1.0659915908523228 	 error= 40.67594355085622 percent
+error rate on test set = 40.57936647699939 percent
+epoch= 23 	 time= 9.74834676583608 min 	 loss= 1.0544180499989053 	 error= 40.212561762851216 percent
+error rate on test set = 40.76785838438405 percent
+epoch= 24 	 time= 10.103172556559246 min 	 loss= 1.045465031914089 	 error= 39.924252655195154 percent
+error rate on test set = 40.67658885485596 percent
+epoch= 25 	 time= 10.46735838651657 min 	 loss= 1.0399001581772513 	 error= 39.48096757349761 percent
+error rate on test set = 40.883929903308555 percent
+epoch= 26 	 time= 10.83400452931722 min 	 loss= 1.0222032097111577 	 error= 38.741643947103746 percent
+error rate on test set = 39.476192121704415 percent
+epoch= 27 	 time= 11.175967653592428 min 	 loss= 1.0038952745562015 	 error= 38.28753760586614 percent
+error rate on test set = 39.821429923176765 percent
+epoch= 28 	 time= 11.536397747198741 min 	 loss= 0.9987470200787419 	 error= 38.063383060952894 percent
+error rate on test set = 38.55456502901183 percent
+epoch= 29 	 time= 11.87386083205541 min 	 loss= 0.9851044346975244 	 error= 37.407924144164376 percent
+error rate on test set = 39.21527937054634 percent
+epoch= 30 	 time= 12.211581079165141 min 	 loss= 0.9766731580444005 	 error= 37.02145072688227 percent
+error rate on test set = 39.076390282975304 percent
+epoch= 31 	 time= 12.534838763872783 min 	 loss= 0.9662051782400711 	 error= 36.65468735280244 percent
+error rate on test set = 39.39583491947916 percent
+epoch= 32 	 time= 12.867097254594167 min 	 loss= 0.9555879352403723 	 error= 36.2724652186684 percent
+error rate on test set = 39.22619190480974 percent
+epoch= 33 	 time= 13.186911396185558 min 	 loss= 0.9459820010351098 	 error= 35.608117383459344 percent
+error rate on test set = 38.009921999441254 percent
+epoch= 34 	 time= 13.529381628831228 min 	 loss= 0.9358510897729708 	 error= 35.08521878201029 percent
+error rate on test set = 37.57639026476277 percent
+epoch= 35 	 time= 13.875125062465667 min 	 loss= 0.9263829452576845 	 error= 35.22164391434711 percent
+error rate on test set = 37.75992174115446 percent
+epoch= 36 	 time= 14.21583496729533 min 	 loss= 0.9118630039173624 	 error= 34.42318979553554 percent
+error rate on test set = 37.55456523762809 percent
+epoch= 37 	 time= 14.583824368317922 min 	 loss= 0.8992942815241607 	 error= 33.915363726408586 percent
+error rate on test set = 37.40178686049249 percent
+epoch= 38 	 time= 14.947520486513774 min 	 loss= 0.8967578999892525 	 error= 33.748793643453844 percent
+error rate on test set = 37.55158860650327 percent
+epoch= 39 	 time= 15.281111013889312 min 	 loss= 0.8872719364580901 	 error= 33.70009812064792 percent
+error rate on test set = 37.2599221765995 percent
+epoch= 40 	 time= 15.63205980459849 min 	 loss= 0.8752535392927087 	 error= 33.21120901729749 percent
+error rate on test set = 37.068453927834824 percent
+epoch= 41 	 time= 15.994506398836771 min 	 loss= 0.8652628058972566 	 error= 32.66357616756274 percent
+error rate on test set = 36.5714298768176 percent
+epoch= 42 	 time= 16.351996179421743 min 	 loss= 0.8558267192736916 	 error= 32.26125737895136 percent
+error rate on test set = 37.78273980650637 percent
+epoch= 43 	 time= 16.70958911975225 min 	 loss= 0.8406496980915898 	 error= 31.93623333391936 percent
+error rate on test set = 38.029763309492004 percent
+epoch= 44 	 time= 17.06838641166687 min 	 loss= 0.8326945091330487 	 error= 31.687344405962076 percent
+error rate on test set = 36.90972353021304 percent
+epoch= 45 	 time= 17.436268277963002 min 	 loss= 0.8198243226175723 	 error= 30.830146333445676 percent
+error rate on test set = 38.596231573157844 percent
+epoch= 46 	 time= 17.800398389498394 min 	 loss= 0.807388081084127 	 error= 30.598648589590322 percent
+error rate on test set = 36.718255488408936 percent
+epoch= 47 	 time= 18.163845225175223 min 	 loss= 0.8008394290053327 	 error= 30.21140258208565 percent
+error rate on test set = 36.19345418281025 percent
+epoch= 48 	 time= 18.514933359622955 min 	 loss= 0.783033061908639 	 error= 29.744542546894237 percent
+error rate on test set = 37.20436663263374 percent
+epoch= 49 	 time= 18.890015172958375 min 	 loss= 0.772482609230539 	 error= 29.348020906033724 percent
+error rate on test set = 36.826390524705246 percent
+epoch= 50 	 time= 19.256894544760385 min 	 loss= 0.7701881822814112 	 error= 29.067054707071055 percent
+error rate on test set = 37.00694565971692 percent
+epoch= 51 	 time= 19.627825812498727 min 	 loss= 0.7529092954552692 	 error= 28.323866118555486 percent
+error rate on test set = 36.51289865374565 percent
+epoch= 52 	 time= 19.990570910771687 min 	 loss= 0.7404834592860678 	 error= 27.982996712560237 percent
+error rate on test set = 37.20436659124162 percent
+epoch= 53 	 time= 20.356236608823142 min 	 loss= 0.736038336287374 	 error= 27.9339146303094 percent
+error rate on test set = 36.743057146668434 percent
+epoch= 54 	 time= 20.738364676634472 min 	 loss= 0.7205587216563847 	 error= 27.473624799562536 percent
+error rate on test set = 37.20436667402585 percent
+epoch= 55 	 time= 21.10009334087372 min 	 loss= 0.7108641631706901 	 error= 26.86106452734574 percent
+error rate on test set = 36.923612778385476 percent
+epoch= 56 	 time= 21.460466913382213 min 	 loss= 0.6953088396528493 	 error= 26.299518377884574 percent
+error rate on test set = 37.162699798742935 percent
+epoch= 57 	 time= 21.83219290971756 min 	 loss= 0.6835302004088526 	 error= 25.92232038663781 percent
+error rate on test set = 36.32043802903758 percent
+epoch= 58 	 time= 22.205182480812073 min 	 loss= 0.676393665023472 	 error= 25.441934150198232 percent
+error rate on test set = 38.059525398744476 percent
+epoch= 59 	 time= 22.54932797352473 min 	 loss= 0.6627009038821511 	 error= 25.162513795106307 percent
+error rate on test set = 37.13492221302456 percent
+epoch= 60 	 time= 22.890337916215262 min 	 loss= 0.6455699862086255 	 error= 24.512078979740973 percent
+error rate on test set = 37.593255688746765 percent
+epoch= 61 	 time= 23.237950646877287 min 	 loss= 0.6328793429291767 	 error= 23.7167168389196 percent
+error rate on test set = 37.074406403634285 percent
+epoch= 62 	 time= 23.56924814383189 min 	 loss= 0.6288551460141721 	 error= 23.46319037935008 percent
+error rate on test set = 36.145834707551536 percent
+epoch= 63 	 time= 23.933807595570883 min 	 loss= 0.6145320756279904 	 error= 23.026475408802863 percent
+error rate on test set = 37.73809692098035 percent
+epoch= 64 	 time= 24.321400662263233 min 	 loss= 0.607389244981434 	 error= 23.0021276059358 percent
+error rate on test set = 36.999009301265076 percent
+epoch= 65 	 time= 24.68466927607854 min 	 loss= 0.5885402344102445 	 error= 22.270146857137266 percent
+error rate on test set = 37.6210334400336 percent
+epoch= 66 	 time= 25.036119055747985 min 	 loss= 0.5825299594713294 	 error= 21.98802132191865 percent
+error rate on test set = 37.843255491720306 percent
+epoch= 67 	 time= 25.388669284184775 min 	 loss= 0.5667147866021032 	 error= 21.048890932746556 percent
+error rate on test set = 37.10416816174984 percent
+epoch= 68 	 time= 25.729676413536072 min 	 loss= 0.5555271921987119 	 error= 20.912079458651338 percent
+error rate on test set = 37.09027945167488 percent
+epoch= 69 	 time= 26.084905393918355 min 	 loss= 0.5468024693105532 	 error= 20.410823324452277 percent
+error rate on test set = 36.9900807324383 percent
+epoch= 70 	 time= 26.45758023659388 min 	 loss= 0.5387893656544064 	 error= 20.19323884922525 percent
+error rate on test set = 37.679564994242455 percent
+epoch= 71 	 time= 26.818693776925404 min 	 loss= 0.5246826683179192 	 error= 19.751886378163878 percent
+error rate on test set = 36.81845408346918 percent
+epoch= 72 	 time= 27.169112821420033 min 	 loss= 0.515826340654622 	 error= 19.268408091171928 percent
+error rate on test set = 37.45436643560727 percent
+epoch= 73 	 time= 27.52248368660609 min 	 loss= 0.5132570956323458 	 error= 19.116910457611084 percent
+error rate on test set = 37.509922145141495 percent
+epoch= 74 	 time= 27.866612203915913 min 	 loss= 0.4968404404495073 	 error= 18.428214923195217 percent
+error rate on test set = 37.00694611503018 percent
+epoch= 75 	 time= 28.207546083132424 min 	 loss= 0.4832470618901045 	 error= 17.899519184361335 percent
+error rate on test set = 36.65178757574823 percent
+epoch= 76 	 time= 28.540990793704985 min 	 loss= 0.4791509022920028 	 error= 17.718649698340375 percent
+error rate on test set = 37.67956507702668 percent
+epoch= 77 	 time= 28.8828306555748 min 	 loss= 0.4656401304187982 	 error= 17.39130672164585 percent
+error rate on test set = 37.15178730587165 percent
+epoch= 78 	 time= 29.248695647716524 min 	 loss= 0.4610328289218571 	 error= 16.98319088894388 percent
+error rate on test set = 37.76587434113026 percent
+epoch= 79 	 time= 29.59644496043523 min 	 loss= 0.4578035149366959 	 error= 17.0249300521353 percent
+error rate on test set = 38.267858616179886 percent
+epoch= 80 	 time= 29.9536300778389 min 	 loss= 0.4445686277358428 	 error= 16.261258405187856 percent
+error rate on test set = 36.79861264924209 percent
+epoch= 81 	 time= 30.311968326568604 min 	 loss= 0.4273023719113806 	 error= 15.464350213175235 percent
+error rate on test set = 37.371033719844284 percent
+epoch= 82 	 time= 30.68265502055486 min 	 loss= 0.4221919059235117 	 error= 15.567152168439783 percent
+error rate on test set = 36.43750159276856 percent
+epoch= 83 	 time= 31.02817626396815 min 	 loss= 0.40933998144191247 	 error= 15.162128147871599 percent
+error rate on test set = 37.610120326280594 percent
+epoch= 84 	 time= 31.381893889109293 min 	 loss= 0.4104004694327064 	 error= 14.995558013086734 percent
+error rate on test set = 36.501985581384766 percent
+epoch= 85 	 time= 31.724668729305268 min 	 loss= 0.41306908498639644 	 error= 14.930630362552144 percent
+error rate on test set = 36.73512070543236 percent
+epoch= 86 	 time= 32.08290227651596 min 	 loss= 0.39731555261041807 	 error= 14.561934813209202 percent
+error rate on test set = 36.540676322248245 percent
+epoch= 87 	 time= 32.434119741121926 min 	 loss= 0.39555502778810003 	 error= 14.35826325416565 percent
+error rate on test set = 36.64285892413722 percent
+epoch= 88 	 time= 32.779380015532176 min 	 loss= 0.3828621842161469 	 error= 13.735654685808266 percent
+error rate on test set = 36.75198534296619 percent
+epoch= 89 	 time= 33.09504357179006 min 	 loss= 0.3717920023462047 	 error= 13.49604110095812 percent
+error rate on test set = 37.162700005703506 percent
+epoch= 90 	 time= 33.44577475786209 min 	 loss= 0.37667860279912535 	 error= 13.520002489504607 percent
+error rate on test set = 37.53769997921255 percent
+epoch= 91 	 time= 33.79880045652389 min 	 loss= 0.35565331284118734 	 error= 12.735847784125287 percent
+error rate on test set = 37.36805713011159 percent
+epoch= 92 	 time= 34.15425437291463 min 	 loss= 0.35902500310669777 	 error= 12.927152115365734 percent
+error rate on test set = 37.00992224944962 percent
+epoch= 93 	 time= 34.49606138070424 min 	 loss= 0.35641498402408933 	 error= 12.730823734532231 percent
+error rate on test set = 37.17956489159001 percent
+epoch= 94 	 time= 34.84300041993459 min 	 loss= 0.3464403442973676 	 error= 12.367152100024017 percent
+error rate on test set = 36.59325573179457 percent
+epoch= 95 	 time= 35.17627248764038 min 	 loss= 0.34739601752032406 	 error= 12.452562746794328 percent
+error rate on test set = 36.045636816157234 percent
+epoch= 96 	 time= 35.53818729718526 min 	 loss= 0.33363982713740803 	 error= 12.031693334164826 percent
+error rate on test set = 37.412700057029724 percent
+epoch= 97 	 time= 35.88229385217031 min 	 loss= 0.32925139962331107 	 error= 11.9099542265353 percent
+error rate on test set = 37.47619171109464 percent
+epoch= 98 	 time= 36.25950589577357 min 	 loss= 0.3210131320810836 	 error= 11.40174154613329 percent
+error rate on test set = 37.69047785964277 percent
+epoch= 99 	 time= 36.61158201694489 min 	 loss= 0.3247549556390099 	 error= 11.579519334046736 percent
+error rate on test set = 36.33234293924438 percent
+epoch= 100 	 time= 36.96368281443914 min 	 loss= 0.31498231727143994 	 error= 11.194978278616201 percent
+error rate on test set = 37.5873028818104 percent
+epoch= 101 	 time= 37.3168736855189 min 	 loss= 0.30740885378306976 	 error= 11.130437197892562 percent
+error rate on test set = 37.137898306051895 percent
+epoch= 102 	 time= 37.66789875030518 min 	 loss= 0.29647068897019263 	 error= 10.59478491285573 percent
+error rate on test set = 36.19643019305335 percent
+epoch= 103 	 time= 38.010437750816344 min 	 loss= 0.2935809371264084 	 error= 10.302611102228578 percent
+error rate on test set = 36.30158855683273 percent
+epoch= 104 	 time= 38.344929440816244 min 	 loss= 0.292190678158532 	 error= 10.259326074434364 percent
+error rate on test set = 36.47420787149006 percent
+epoch= 105 	 time= 38.70819319089254 min 	 loss= 0.2875628405809402 	 error= 10.243867003399393 percent
+error rate on test set = 36.02381166484621 percent
+epoch= 106 	 time= 39.068370366096495 min 	 loss= 0.29089159738758336 	 error= 10.18628256217293 percent
+error rate on test set = 37.332342689236 percent
+epoch= 107 	 time= 39.426413746674854 min 	 loss= 0.2875171300380126 	 error= 10.014301849448163 percent
+error rate on test set = 37.27579505907165 percent
+epoch= 108 	 time= 39.79724777142207 min 	 loss= 0.28404628730338555 	 error= 9.90145172243533 percent
+error rate on test set = 37.48016009728114 percent
+epoch= 109 	 time= 40.1442153930664 min 	 loss= 0.28922053931199987 	 error= 10.24386711742567 percent
+error rate on test set = 36.615080965889824 percent
+epoch= 110 	 time= 40.4873594601949 min 	 loss= 0.2751945674289828 	 error= 9.54976084957952 percent
+error rate on test set = 36.52381110522482 percent
+epoch= 111 	 time= 40.830405104160306 min 	 loss= 0.2618830310780069 	 error= 9.266089273535687 percent
+error rate on test set = 37.02976364228461 percent
+epoch= 112 	 time= 41.19377951224645 min 	 loss= 0.26625174202996754 	 error= 9.287345212438833 percent
+error rate on test set = 38.06845400896337 percent
+epoch= 113 	 time= 41.53942969242732 min 	 loss= 0.26681773088548494 	 error= 9.304350231004797 percent
+error rate on test set = 36.80158890783787 percent
+epoch= 114 	 time= 41.90020998716354 min 	 loss= 0.262015695915274 	 error= 9.28000233484351 percent
+error rate on test set = 35.979168241222695 percent
+epoch= 115 	 time= 42.26756435235341 min 	 loss= 0.2549142404159774 	 error= 9.067828385726266 percent
+error rate on test set = 37.35416796472337 percent
+epoch= 116 	 time= 42.609262613455456 min 	 loss= 0.25964192753576715 	 error= 9.142804218375163 percent
+error rate on test set = 36.52678765356541 percent
+epoch= 117 	 time= 42.964663966496786 min 	 loss= 0.2528834121317967 	 error= 8.820872026941052 percent
+error rate on test set = 37.72420783837636 percent
+epoch= 118 	 time= 43.310762099425 min 	 loss= 0.24842361438209595 	 error= 8.587828439214954 percent
+error rate on test set = 36.78770007358657 percent
+epoch= 119 	 time= 43.66097006400426 min 	 loss= 0.24619348711941552 	 error= 8.563867133596668 percent
+error rate on test set = 36.9017871717612 percent
+epoch= 120 	 time= 44.01461158196131 min 	 loss= 0.2537456992138987 	 error= 8.991693196089372 percent
+error rate on test set = 37.18750170535511 percent
+epoch= 121 	 time= 44.36225391626358 min 	 loss= 0.2321545168141956 	 error= 7.86821497004965 percent
+error rate on test set = 37.84325557450454 percent
+epoch= 122 	 time= 44.6975568930308 min 	 loss= 0.24501936348884001 	 error= 8.525606290153835 percent
+error rate on test set = 37.18750141561031 percent
+epoch= 123 	 time= 45.04062880277634 min 	 loss= 0.23989747592936392 	 error= 8.333915378736414 percent
+error rate on test set = 37.06547775202328 percent
+epoch= 124 	 time= 45.40201914310455 min 	 loss= 0.23280779302444146 	 error= 7.896040937174921 percent
+error rate on test set = 37.485120528274116 percent
+epoch= 125 	 time= 45.767137130101524 min 	 loss= 0.22877254283946494 	 error= 7.881741523742676 percent
+error rate on test set = 36.54861292905277 percent
+epoch= 126 	 time= 46.11966670354207 min 	 loss= 0.22937098322679167 	 error= 7.998456436654795 percent
+error rate on test set = 37.4464299943712 percent
+epoch= 127 	 time= 46.46886183023453 min 	 loss= 0.22214140448557293 	 error= 7.5234806330307675 percent
+error rate on test set = 37.57043803731601 percent
+epoch= 128 	 time= 46.812120338281 min 	 loss= 0.21569783173177554 	 error= 7.457393521847933 percent
+error rate on test set = 36.80456508364942 percent
+epoch= 129 	 time= 47.15245205958684 min 	 loss= 0.2201235396479783 	 error= 7.742610993592636 percent
+error rate on test set = 36.92361273699337 percent
+epoch= 130 	 time= 47.50095839103063 min 	 loss= 0.21616627410540115 	 error= 7.502610921859741 percent
+error rate on test set = 38.32043794294198 percent
+epoch= 131 	 time= 47.844079434871674 min 	 loss= 0.2101479722365089 	 error= 7.240195533503657 percent
+error rate on test set = 36.968255622519386 percent
+epoch= 132 	 time= 48.19155732790629 min 	 loss= 0.22644979735431464 	 error= 7.690437099208003 percent
+error rate on test set = 37.884922201434776 percent
+epoch= 133 	 time= 48.5395111044248 min 	 loss= 0.20367495647915032 	 error= 7.0747848697330635 percent
+error rate on test set = 36.99305736356312 percent
+epoch= 134 	 time= 48.88569714625677 min 	 loss= 0.21108044041239696 	 error= 7.274978088295978 percent
+error rate on test set = 36.89583494431442 percent
+epoch= 135 	 time= 49.23507772286733 min 	 loss= 0.19912290248210016 	 error= 6.906282487122908 percent
+error rate on test set = 36.65773955484231 percent
+epoch= 136 	 time= 49.589300974210104 min 	 loss= 0.20108254309257736 	 error= 6.921741485595703 percent
+error rate on test set = 37.287699679533645 percent
+epoch= 137 	 time= 49.94975993235906 min 	 loss= 0.20840931531527768 	 error= 7.356524125389432 percent
+error rate on test set = 38.45436651673582 percent
+epoch= 138 	 time= 50.303573393821715 min 	 loss= 0.19968001503335392 	 error= 7.0975868701934814 percent
+error rate on test set = 36.926588747236465 percent
+epoch= 139 	 time= 50.65106449921926 min 	 loss= 0.20515076620423275 	 error= 7.019132686697918 percent
+error rate on test set = 36.75694598091973 percent
+epoch= 140 	 time= 50.995228906472526 min 	 loss= 0.1983910165662351 	 error= 6.726958658384239 percent
+error rate on test set = 37.250993690556946 percent
+epoch= 141 	 time= 51.33248099486033 min 	 loss= 0.20487264190031135 	 error= 6.904350166735441 percent
+error rate on test set = 37.598215705818596 percent
+epoch= 142 	 time= 51.688326919078825 min 	 loss= 0.19232679670109698 	 error= 6.476523969484411 percent
+error rate on test set = 36.79067616661389 percent
+epoch= 143 	 time= 52.04387989838918 min 	 loss= 0.19900708895662556 	 error= 6.821258285771245 percent
+error rate on test set = 37.468255435427025 percent
+epoch= 144 	 time= 52.3900101184845 min 	 loss= 0.1990339612507302 	 error= 6.996717204218325 percent
+error rate on test set = 37.051588628027176 percent
+epoch= 145 	 time= 52.74016720056534 min 	 loss= 0.1890783431413381 	 error= 6.4575868378514825 percent
+error rate on test set = 37.684525549411774 percent
+epoch= 146 	 time= 53.09368759393692 min 	 loss= 0.1889635348400992 	 error= 6.539132802382759 percent
+error rate on test set = 38.326390667094124 percent
+epoch= 147 	 time= 53.440448852380115 min 	 loss= 0.19624006469612537 	 error= 6.701065156770788 percent
+error rate on test set = 37.634922439853355 percent
+epoch= 148 	 time= 53.77733356555303 min 	 loss= 0.19420984031713528 	 error= 6.657393590263698 percent
+error rate on test set = 37.27678693830967 percent
+epoch= 149 	 time= 54.127083849906924 min 	 loss= 0.19364757474349892 	 error= 6.570437037426492 percent
+error rate on test set = 37.71825548675325 percent
+epoch= 150 	 time= 54.47821324666341 min 	 loss= 0.1823119913721862 	 error= 6.1793258604796035 percent
+error rate on test set = 37.121033254596924 percent
+epoch= 151 	 time= 54.82852541208267 min 	 loss= 0.1864097626555873 	 error= 6.518263174139935 percent
+error rate on test set = 37.26488235923979 percent
+epoch= 152 	 time= 55.18159779707591 min 	 loss= 0.19780185026967007 	 error= 6.544543359590612 percent
+error rate on test set = 38.30158859491348 percent
+epoch= 153 	 time= 55.52320843537648 min 	 loss= 0.18972087321883957 	 error= 6.393045705297719 percent
+error rate on test set = 36.68452550967534 percent
+epoch= 154 	 time= 55.87793109019597 min 	 loss= 0.1810095281737006 	 error= 6.271306649498317 percent
+error rate on test set = 37.59623186455833 percent
+epoch= 155 	 time= 56.22248660326004 min 	 loss= 0.18543600078510203 	 error= 6.320002369258715 percent
+error rate on test set = 37.93452522820896 percent
+epoch= 156 	 time= 56.576816499233246 min 	 loss= 0.18920731411032055 	 error= 6.3969104290008545 percent
+error rate on test set = 37.634922191500664 percent
+epoch= 157 	 time= 56.9209624449412 min 	 loss= 0.19904544340203636 	 error= 6.732369474742724 percent
+error rate on test set = 37.479168176651 percent
+epoch= 158 	 time= 57.266689932346345 min 	 loss= 0.18779524034132128 	 error= 6.316524059876152 percent
+error rate on test set = 37.02381112509304 percent
+epoch= 159 	 time= 57.61502378781636 min 	 loss= 0.1796830952361874 	 error= 6.00889109528583 percent
+error rate on test set = 37.44047751857175 percent
+epoch= 160 	 time= 57.97012846469879 min 	 loss= 0.18836204740016357 	 error= 6.706089320390121 percent
+error rate on test set = 37.27877144184377 percent
+epoch= 161 	 time= 58.31541050275167 min 	 loss= 0.17588357979836672 	 error= 5.897586874339892 percent
+error rate on test set = 37.496033476458656 percent
+epoch= 162 	 time= 58.65894563595454 min 	 loss= 0.18332380880642196 	 error= 6.422804231229036 percent
+error rate on test set = 38.40972358981769 percent
+epoch= 163 	 time= 59.014106305440265 min 	 loss= 0.18228313540634902 	 error= 6.052176029785819 percent
+error rate on test set = 37.290676062305764 percent
+epoch= 164 	 time= 59.366840891043346 min 	 loss= 0.17175320427216914 	 error= 5.78782812408779 percent
+error rate on test set = 37.41270009842184 percent
+epoch= 165 	 time= 59.7167929649353 min 	 loss= 0.17311651820964788 	 error= 5.735654312631358 percent
+error rate on test set = 37.16567634708351 percent
+epoch= 166 	 time= 60.0644149740537 min 	 loss= 0.18295658582092628 	 error= 5.998456343360569 percent
+error rate on test set = 36.940477788448334 percent
+epoch= 167 	 time= 60.413375620047255 min 	 loss= 0.1774529151407921 	 error= 6.029760682064554 percent
+error rate on test set = 37.38789848155445 percent
+epoch= 168 	 time= 60.76553817192713 min 	 loss= 0.18249903967685024 	 error= 6.125219593877378 percent
+error rate on test set = 38.25992192659113 percent
+epoch= 169 	 time= 61.130127501487735 min 	 loss= 0.17540288476354401 	 error= 5.765412952588952 percent
+error rate on test set = 37.69841421809461 percent
+epoch= 170 	 time= 61.49145024220149 min 	 loss= 0.1786453770036283 	 error= 5.923480521077695 percent
+error rate on test set = 38.12896961139308 percent
+epoch= 171 	 time= 61.85537119706472 min 	 loss= 0.17838045672554037 	 error= 5.994978199834409 percent
+error rate on test set = 37.72619209355778 percent
+epoch= 172 	 time= 62.21790607770284 min 	 loss= 0.17320967166320136 	 error= 5.784350063489831 percent
+error rate on test set = 37.69345399406221 percent
+epoch= 173 	 time= 62.58287216822306 min 	 loss= 0.16601401426222012 	 error= 5.5567172610241435 percent
+error rate on test set = 37.00694619781441 percent
+epoch= 174 	 time= 62.92808034420013 min 	 loss= 0.17687350930241139 	 error= 5.98492982076562 percent
+error rate on test set = 36.79266029761897 percent
+epoch= 175 	 time= 63.27747555176417 min 	 loss= 0.16886634919954382 	 error= 5.629760773285575 percent
+error rate on test set = 37.84325540893608 percent
+epoch= 176 	 time= 63.62958084742228 min 	 loss= 0.17847519665632558 	 error= 6.130630285843559 percent
+error rate on test set = 38.42658917937014 percent
+epoch= 177 	 time= 63.97490002711614 min 	 loss= 0.18163638054028802 	 error= 6.052176268204399 percent
+error rate on test set = 37.50992206235726 percent
+epoch= 178 	 time= 64.33558580478032 min 	 loss= 0.16235018681410862 	 error= 5.5428041271541435 percent
+error rate on test set = 36.85714412066672 percent
+epoch= 179 	 time= 64.68317006031673 min 	 loss= 0.17407442562282086 	 error= 5.932369429132213 percent
+error rate on test set = 37.238096818327904 percent
+epoch= 180 	 time= 65.02491608858108 min 	 loss= 0.1747158388165838 	 error= 5.867828306944474 percent
+error rate on test set = 37.62896967430909 percent
+epoch= 181 	 time= 65.37801014979681 min 	 loss= 0.17348362175666768 	 error= 5.921934635742851 percent
+error rate on test set = 38.28472387459543 percent
+epoch= 182 	 time= 65.7277307788531 min 	 loss= 0.17372766164333925 	 error= 5.887151935826177 percent
+error rate on test set = 37.415676315625504 percent
+epoch= 183 	 time= 66.08306379715602 min 	 loss= 0.16539310157137072 	 error= 5.619325928066088 percent
+error rate on test set = 38.24305704070462 percent
+epoch= 184 	 time= 66.44120659033457 min 	 loss= 0.1714921466892828 	 error= 5.7008717682050625 percent
+error rate on test set = 37.75694610344039 percent
+epoch= 185 	 time= 66.79335833390554 min 	 loss= 0.1551485701330492 	 error= 5.234784934831702 percent
+error rate on test set = 37.68750160104698 percent
+epoch= 186 	 time= 67.13318047920863 min 	 loss= 0.16607954567379277 	 error= 5.591499763986339 percent
+error rate on test set = 36.87896997564369 percent
+epoch= 187 	 time= 67.47743894259135 min 	 loss= 0.16672023259103297 	 error= 5.535847736441571 percent
+error rate on test set = 37.740081176161766 percent
+epoch= 188 	 time= 67.82929873069128 min 	 loss= 0.18029361980035902 	 error= 6.086958812630694 percent
+error rate on test set = 37.50694638325108 percent
+epoch= 189 	 time= 68.17631888786951 min 	 loss= 0.16331859811492588 	 error= 5.408697853917661 percent
+error rate on test set = 38.412700013981926 percent
+epoch= 190 	 time= 68.51642741362254 min 	 loss= 0.16525658413362893 	 error= 5.474784861440244 percent
+error rate on test set = 38.624009365836784 percent
+epoch= 191 	 time= 68.8612300435702 min 	 loss= 0.16171416835454494 	 error= 5.561741476473601 percent
+error rate on test set = 38.37103326287534 percent
+epoch= 192 	 time= 69.21253426472346 min 	 loss= 0.1540735208923402 	 error= 5.095654394315637 percent
+error rate on test set = 36.8878986272547 percent
+epoch= 193 	 time= 69.56391665935516 min 	 loss= 0.16821231451209473 	 error= 5.617780073829319 percent
+error rate on test set = 37.74900953802798 percent
+epoch= 194 	 time= 69.91146372159322 min 	 loss= 0.18122625030131767 	 error= 5.902610923932946 percent
+error rate on test set = 37.645835015508865 percent
+epoch= 195 	 time= 70.27386214733124 min 	 loss= 0.16459716139928154 	 error= 5.448891048846038 percent
+error rate on test set = 37.75992219646771 percent
+epoch= 196 	 time= 70.62429743210474 min 	 loss= 0.17065249944753622 	 error= 5.574108393295951 percent
+error rate on test set = 37.92658882836501 percent
+epoch= 197 	 time= 70.96889228026072 min 	 loss= 0.1701572123931154 	 error= 5.754978128101515 percent
+error rate on test set = 37.50396979351838 percent
+epoch= 198 	 time= 71.32047909498215 min 	 loss= 0.1636838308264218 	 error= 5.540871723838475 percent
+error rate on test set = 37.52678744494915 percent
+epoch= 199 	 time= 71.68298303683599 min 	 loss= 0.1676228751918382 	 error= 5.481741283250892 percent
+error rate on test set = 38.29861258467038 percent
+
