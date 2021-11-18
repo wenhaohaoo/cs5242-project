@@ -3,7 +3,6 @@ __pycache__
 *.json
 *.ipynb_checkpoints/
 dag*.py
-*.txt
 images/*
 !images/scrape-man.png
 !images/scrape-woman.png
