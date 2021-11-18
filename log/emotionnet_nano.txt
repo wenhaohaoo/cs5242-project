@@ -1,599 +1,599 @@
-epoch= 0 	 time= 0.03626355330149333 min 	 lr= 0.001 	 loss= 1.936351289554518 	 error= 81.16326551048122 percent
-error rate on dataset = 80.65306155049072 percent
+epoch= 0 	 time= 0.03670661052068074 min 	 lr= 0.001 	 loss= 1.9354676421807737 	 error= 81.28571473822302 percent
+error rate on dataset = 80.83673472307167 percent
  
-epoch= 1 	 time= 0.10884363651275634 min 	 lr= 0.001 	 loss= 1.9328873400785485 	 error= 81.6326539127194 percent
-error rate on dataset = 84.20408197811672 percent
+epoch= 1 	 time= 0.11219857533772787 min 	 lr= 0.001 	 loss= 1.931564552443368 	 error= 80.71428622518268 percent
+error rate on dataset = 82.28571463604362 percent
  
-epoch= 2 	 time= 0.1823509414990743 min 	 lr= 0.001 	 loss= 1.9315239482996416 	 error= 80.48979640007019 percent
-error rate on dataset = 83.83673526802842 percent
+epoch= 2 	 time= 0.18842622836430867 min 	 lr= 0.001 	 loss= 1.9294108322688512 	 error= 80.34693975837864 percent
+error rate on dataset = 80.38775555941523 percent
  
-epoch= 3 	 time= 0.2554835359255473 min 	 lr= 0.001 	 loss= 1.9300026577346179 	 error= 80.65306155049072 percent
-error rate on dataset = 80.2857148404024 percent
+epoch= 3 	 time= 0.2627239108085632 min 	 lr= 0.001 	 loss= 1.9286966226538833 	 error= 80.30612261927857 percent
+error rate on dataset = 80.26530645331557 percent
  
-epoch= 4 	 time= 0.3276259263356527 min 	 lr= 0.001 	 loss= 1.9278538592007695 	 error= 80.08163303745036 percent
+epoch= 4 	 time= 0.33676222562789915 min 	 lr= 0.001 	 loss= 1.9291351522718156 	 error= 80.10204069468439 percent
+error rate on dataset = 80.04081674984523 percent
+ 
+epoch= 5 	 time= 0.41160186131795246 min 	 lr= 0.001 	 loss= 1.9269910588556407 	 error= 80.16326524773423 percent
+error rate on dataset = 80.00000070552437 percent
+ 
+epoch= 6 	 time= 0.48520381848017374 min 	 lr= 0.001 	 loss= 1.9276677005145015 	 error= 80.10204166782145 percent
 error rate on dataset = 79.85714296905361 percent
  
-epoch= 5 	 time= 0.40283334255218506 min 	 lr= 0.001 	 loss= 1.9270805582708241 	 error= 79.97959171022687 percent
-error rate on dataset = 80.30612286256284 percent
+epoch= 7 	 time= 0.5594567616780599 min 	 lr= 0.001 	 loss= 1.9272822920156985 	 error= 79.95918441791923 percent
+error rate on dataset = 79.65306140938584 percent
  
-epoch= 6 	 time= 0.47713737885157265 min 	 lr= 0.001 	 loss= 1.9270789355647808 	 error= 80.1428575905002 percent
-error rate on dataset = 80.30612261927857 percent
+epoch= 8 	 time= 0.635080087184906 min 	 lr= 0.001 	 loss= 1.9258803080539315 	 error= 79.83673494689319 percent
+error rate on dataset = 79.42857207084188 percent
  
-epoch= 7 	 time= 0.5500455578168233 min 	 lr= 0.001 	 loss= 1.9282288770286404 	 error= 80.77551017002183 percent
-error rate on dataset = 79.95918405299284 percent
+epoch= 9 	 time= 0.7091172456741333 min 	 lr= 0.001 	 loss= 1.9252466522917455 	 error= 79.85714309069574 percent
+error rate on dataset = 79.87755074792979 percent
  
-epoch= 8 	 time= 0.6215194940567017 min 	 lr= 0.001 	 loss= 1.92677205679368 	 error= 80.20408202190788 percent
-error rate on dataset = 80.22449016571045 percent
+epoch= 10 	 time= 0.7829034090042114 min 	 lr= 0.001 	 loss= 1.9278597564113384 	 error= 80.3469392718101 percent
+error rate on dataset = 79.77551075876976 percent
  
-epoch= 9 	 time= 0.6945041577021281 min 	 lr= 0.001 	 loss= 1.9267334938049316 	 error= 80.00000021895583 percent
-error rate on dataset = 80.1428575905002 percent
+epoch= 11 	 time= 0.8586955467859904 min 	 lr= 0.001 	 loss= 1.9264342128014078 	 error= 80.1020410596108 percent
+error rate on dataset = 80.28571447547601 percent
  
-epoch= 10 	 time= 0.7675809264183044 min 	 lr= 0.001 	 loss= 1.9260189265620953 	 error= 79.89795889173236 percent
-error rate on dataset = 80.34693878524158 percent
+epoch= 12 	 time= 0.9348207394282023 min 	 lr= 0.001 	 loss= 1.925567967551095 	 error= 80.20408190026575 percent
+error rate on dataset = 80.95918407245559 percent
  
-epoch= 11 	 time= 0.8395126104354859 min 	 lr= 0.001 	 loss= 1.9254967290527967 	 error= 80.10204069468439 percent
-error rate on dataset = 79.57142883417558 percent
+epoch= 13 	 time= 1.0093685587247212 min 	 lr= 0.001 	 loss= 1.9234620332717896 	 error= 79.93877627411668 percent
+error rate on dataset = 79.51020391619934 percent
  
-epoch= 12 	 time= 0.9116110881169637 min 	 lr= 0.001 	 loss= 1.9255618440861604 	 error= 80.24489806622876 percent
-error rate on dataset = 79.7142857191514 percent
+epoch= 14 	 time= 1.0845205227533976 min 	 lr= 0.001 	 loss= 1.923751738606667 	 error= 80.14285734721592 percent
+error rate on dataset = 79.71428632736206 percent
  
-epoch= 13 	 time= 0.9849003950754801 min 	 lr= 0.001 	 loss= 1.923979073154683 	 error= 79.93877542262175 percent
-error rate on dataset = 79.6734695531884 percent
+epoch= 15 	 time= 1.1626686771710715 min 	 lr= 0.001 	 loss= 1.9229919448190806 	 error= 79.91836800867198 percent
+error rate on dataset = 79.91836752210345 percent
  
-epoch= 14 	 time= 1.0583315213521323 min 	 lr= 0.001 	 loss= 1.9251654610341908 	 error= 80.32653112800755 percent
-error rate on dataset = 79.71428596243567 percent
+epoch= 16 	 time= 1.2371190428733825 min 	 lr= 0.001 	 loss= 1.923940439613498 	 error= 80.06122465036354 percent
+error rate on dataset = 79.0612246309008 percent
  
-epoch= 15 	 time= 1.1320747931798298 min 	 lr= 0.001 	 loss= 1.9242506051550106 	 error= 80.12244932505548 percent
-error rate on dataset = 79.97959183186902 percent
+epoch= 17 	 time= 1.3113314072291056 min 	 lr= 0.001 	 loss= 1.9201282457429536 	 error= 79.36734751779207 percent
+error rate on dataset = 79.16326510662935 percent
  
-epoch= 16 	 time= 1.2072473406791686 min 	 lr= 0.001 	 loss= 1.9236927446053953 	 error= 80.1428575905002 percent
-error rate on dataset = 79.53061230328619 percent
+epoch= 18 	 time= 1.3865259766578675 min 	 lr= 0.001 	 loss= 1.9168373127372897 	 error= 79.2448984116924 percent
+error rate on dataset = 77.51020424220026 percent
  
-epoch= 17 	 time= 1.280670177936554 min 	 lr= 0.001 	 loss= 1.9239227090563094 	 error= 80.08163328073464 percent
-error rate on dataset = 79.51020379455723 percent
+epoch= 19 	 time= 1.460198974609375 min 	 lr= 0.001 	 loss= 1.9160640288372428 	 error= 79.00000044277736 percent
+error rate on dataset = 79.53061218164406 percent
  
-epoch= 18 	 time= 1.357447294394175 min 	 lr= 0.001 	 loss= 1.9210780299439723 	 error= 80.36734705068626 percent
-error rate on dataset = 78.40816305608166 percent
+epoch= 20 	 time= 1.5343069076538085 min 	 lr= 0.001 	 loss= 1.9147377695356096 	 error= 78.75510271714658 percent
+error rate on dataset = 75.9387754664129 percent
  
-epoch= 19 	 time= 1.4312657197316487 min 	 lr= 0.001 	 loss= 1.9201968567711967 	 error= 79.40816356211292 percent
-error rate on dataset = 79.44897984971806 percent
+epoch= 21 	 time= 1.6087493340174357 min 	 lr= 0.001 	 loss= 1.9100332625058232 	 error= 77.93877599190692 percent
+error rate on dataset = 77.42857178863214 percent
  
-epoch= 20 	 time= 1.5033335010210673 min 	 lr= 0.001 	 loss= 1.9167790412902832 	 error= 77.67347000083144 percent
-error rate on dataset = 77.89795982594393 percent
+epoch= 22 	 time= 1.6833657304445901 min 	 lr= 0.001 	 loss= 1.9041152170726232 	 error= 77.00000003892549 percent
+error rate on dataset = 76.26530661874888 percent
  
-epoch= 21 	 time= 1.5754910866419474 min 	 lr= 0.001 	 loss= 1.9005306569897398 	 error= 75.51020517641184 percent
-error rate on dataset = 73.10204153158226 percent
+epoch= 23 	 time= 1.7569928367932637 min 	 lr= 0.001 	 loss= 1.899302219857975 	 error= 76.08163320288367 percent
+error rate on dataset = 75.46938852388033 percent
  
-epoch= 22 	 time= 1.6479565342267355 min 	 lr= 0.001 	 loss= 1.8858297868650786 	 error= 73.89796011301935 percent
-error rate on dataset = 77.95918389242522 percent
+epoch= 24 	 time= 1.8309028148651123 min 	 lr= 0.001 	 loss= 1.8920893742113698 	 error= 74.77551102638245 percent
+error rate on dataset = 73.9387760356981 percent
  
-epoch= 23 	 time= 1.7207787434260051 min 	 lr= 0.001 	 loss= 1.8783026009189838 	 error= 73.32653135669474 percent
-error rate on dataset = 71.46938808110296 percent
+epoch= 25 	 time= 1.9046220064163208 min 	 lr= 0.001 	 loss= 1.896191694298569 	 error= 75.87755127828947 percent
+error rate on dataset = 73.73469496259884 percent
  
-epoch= 24 	 time= 1.7930113077163696 min 	 lr= 0.001 	 loss= 1.8765892179644839 	 error= 73.32653087012622 percent
-error rate on dataset = 72.36734835468994 percent
+epoch= 26 	 time= 1.978774889310201 min 	 lr= 0.001 	 loss= 1.8911256984788545 	 error= 74.87755138046887 percent
+error rate on dataset = 72.12244953427997 percent
  
-epoch= 25 	 time= 1.8652345577875773 min 	 lr= 0.001 	 loss= 1.8679749941339299 	 error= 71.93877611841474 percent
-error rate on dataset = 73.04081734345884 percent
+epoch= 27 	 time= 2.052910689512889 min 	 lr= 0.001 	 loss= 1.8810822112219674 	 error= 74.04081724127944 percent
+error rate on dataset = 71.30612353889309 percent
  
-epoch= 26 	 time= 1.9381892124811808 min 	 lr= 0.001 	 loss= 1.8672412220312624 	 error= 71.77551121127848 percent
-error rate on dataset = 71.59183767377114 percent
+epoch= 28 	 time= 2.1287012537320456 min 	 lr= 0.001 	 loss= 1.8686896854517412 	 error= 72.44898080825806 percent
+error rate on dataset = 73.95918405785852 percent
  
-epoch= 27 	 time= 2.011735932032267 min 	 lr= 0.001 	 loss= 1.8668286167845434 	 error= 72.44898044333166 percent
-error rate on dataset = 71.81632786381002 percent
+epoch= 29 	 time= 2.20329585870107 min 	 lr= 0.001 	 loss= 1.8661730703042478 	 error= 72.367347503195 percent
+error rate on dataset = 70.57142951050584 percent
  
-epoch= 28 	 time= 2.0838509798049927 min 	 lr= 0.001 	 loss= 1.8706486930652542 	 error= 72.75510308693866 percent
-error rate on dataset = 71.38775599246122 percent
+epoch= 30 	 time= 2.277231248219808 min 	 lr= 0.001 	 loss= 1.8686413594654627 	 error= 72.51020475309721 percent
+error rate on dataset = 73.00000093421157 percent
  
-epoch= 29 	 time= 2.1568207859992983 min 	 lr= 0.001 	 loss= 1.8582374927948933 	 error= 70.69387885988975 percent
-error rate on dataset = 70.48979669201131 percent
+epoch= 31 	 time= 2.352685070037842 min 	 lr= 0.001 	 loss= 1.8663268235264991 	 error= 72.81632703177783 percent
+error rate on dataset = 73.22449100260832 percent
  
-epoch= 30 	 time= 2.2311907410621643 min 	 lr= 0.001 	 loss= 1.8615601768299026 	 error= 71.63265383973413 percent
-error rate on dataset = 71.04081779110189 percent
+epoch= 32 	 time= 2.4268529574076334 min 	 lr= 0.001 	 loss= 1.8554699956154337 	 error= 70.65306196407396 percent
+error rate on dataset = 71.71428605001799 percent
  
-epoch= 31 	 time= 2.3040603518486025 min 	 lr= 0.001 	 loss= 1.8532178912843977 	 error= 70.73469478256848 percent
-error rate on dataset = 69.87755201300796 percent
+epoch= 33 	 time= 2.5011456926663715 min 	 lr= 0.001 	 loss= 1.8390525774079927 	 error= 69.122449719176 percent
+error rate on dataset = 69.65306230953762 percent
  
-epoch= 32 	 time= 2.3764538089434306 min 	 lr= 0.001 	 loss= 1.850464365920242 	 error= 70.59183741102413 percent
-error rate on dataset = 70.63265467176632 percent
+epoch= 34 	 time= 2.5748302300771075 min 	 lr= 0.001 	 loss= 1.8463668166374674 	 error= 69.8367348739079 percent
+error rate on dataset = 66.83673481551968 percent
  
-epoch= 33 	 time= 2.450065815448761 min 	 lr= 0.001 	 loss= 1.859367122455519 	 error= 72.12245002084849 percent
-error rate on dataset = 68.89795952913713 percent
+epoch= 35 	 time= 2.6494901021321615 min 	 lr= 0.001 	 loss= 1.8441301973498598 	 error= 70.1632665128124 percent
+error rate on dataset = 68.24489977894997 percent
  
-epoch= 34 	 time= 2.522184411684672 min 	 lr= 0.001 	 loss= 1.8511855042710597 	 error= 70.24489860145412 percent
-error rate on dataset = 68.71428659984043 percent
+epoch= 36 	 time= 2.7228017926216124 min 	 lr= 0.001 	 loss= 1.8310790670161345 	 error= 68.59183773702505 percent
+error rate on dataset = 67.32653148320257 percent
  
-epoch= 35 	 time= 2.594010066986084 min 	 lr= 0.001 	 loss= 1.8428882603742638 	 error= 69.57142961268522 percent
-error rate on dataset = 71.06122556997805 percent
+epoch= 37 	 time= 2.7971161286036175 min 	 lr= 0.001 	 loss= 1.825643955444803 	 error= 67.87755148751395 percent
+error rate on dataset = 69.40816421898045 percent
  
-epoch= 36 	 time= 2.665711534023285 min 	 lr= 0.001 	 loss= 1.841681786945888 	 error= 69.38775595353574 percent
-error rate on dataset = 67.97959244981104 percent
+epoch= 38 	 time= 2.8721109588940936 min 	 lr= 0.001 	 loss= 1.8128656586822198 	 error= 66.02040906341709 percent
+error rate on dataset = 65.14285742020121 percent
  
-epoch= 37 	 time= 2.7393420735994973 min 	 lr= 0.001 	 loss= 1.838258066955878 	 error= 68.83673558429795 percent
-error rate on dataset = 67.87755197408248 percent
+epoch= 39 	 time= 2.9459442257881165 min 	 lr= 0.001 	 loss= 1.810105357851301 	 error= 65.87755181351487 percent
+error rate on dataset = 65.14285717691693 percent
  
-epoch= 38 	 time= 2.8109105507532757 min 	 lr= 0.001 	 loss= 1.8275563449275738 	 error= 67.77551089014325 percent
-error rate on dataset = 67.65306227061212 percent
+epoch= 40 	 time= 3.0206414461135864 min 	 lr= 0.001 	 loss= 1.8145753704771703 	 error= 66.59183769809957 percent
+error rate on dataset = 65.48979647305548 percent
  
-epoch= 39 	 time= 2.883567154407501 min 	 lr= 0.001 	 loss= 1.830255914707573 	 error= 68.38775642064154 percent
-error rate on dataset = 66.44897947506028 percent
+epoch= 41 	 time= 3.0948277433713276 min 	 lr= 0.001 	 loss= 1.8197880058872455 	 error= 66.83673530208821 percent
+error rate on dataset = 66.55102153213657 percent
  
-epoch= 40 	 time= 2.957051964600881 min 	 lr= 0.001 	 loss= 1.8317267091906801 	 error= 68.16326574403413 percent
-error rate on dataset = 66.28571505449257 percent
+epoch= 42 	 time= 3.1692748149236043 min 	 lr= 0.001 	 loss= 1.813040543575676 	 error= 66.5306130234076 percent
+error rate on dataset = 64.02040853792307 percent
  
-epoch= 41 	 time= 3.029348595937093 min 	 lr= 0.001 	 loss= 1.8236816853893048 	 error= 67.89796048281144 percent
-error rate on dataset = 67.89796023952718 percent
+epoch= 43 	 time= 3.2447155316670737 min 	 lr= 0.001 	 loss= 1.8005072851570285 	 error= 65.10204186244887 percent
+error rate on dataset = 65.79591899502034 percent
  
-epoch= 42 	 time= 3.1008768637975055 min 	 lr= 0.001 	 loss= 1.8184079053450604 	 error= 67.10204117152155 percent
-error rate on dataset = 66.06122547266435 percent
+epoch= 44 	 time= 3.3177257935206095 min 	 lr= 0.001 	 loss= 1.797356654186638 	 error= 64.20408146721977 percent
+error rate on dataset = 63.959184714726035 percent
  
-epoch= 43 	 time= 3.1738802393277488 min 	 lr= 0.001 	 loss= 1.819698165874092 	 error= 67.40816405841282 percent
-error rate on dataset = 66.04081708557752 percent
+epoch= 45 	 time= 3.393929052352905 min 	 lr= 0.001 	 loss= 1.7977415590870136 	 error= 64.4285722654693 percent
+error rate on dataset = 64.42857165725864 percent
  
-epoch= 44 	 time= 3.248444306850433 min 	 lr= 0.001 	 loss= 1.8337673654361648 	 error= 68.2857160665551 percent
-error rate on dataset = 66.67347027330982 percent
+epoch= 46 	 time= 3.468169657389323 min 	 lr= 0.001 	 loss= 1.7928694583931748 	 error= 64.20408219707255 percent
+error rate on dataset = 64.75510232302607 percent
  
-epoch= 45 	 time= 3.3220778981844585 min 	 lr= 0.001 	 loss= 1.8266799352606948 	 error= 68.48979713965436 percent
-error rate on dataset = 64.7551035394474 percent
+epoch= 47 	 time= 3.542348019282023 min 	 lr= 0.001 	 loss= 1.8062923416799428 	 error= 65.57142953483425 percent
+error rate on dataset = 62.9591843303369 percent
  
-epoch= 46 	 time= 3.3953475673993427 min 	 lr= 0.001 	 loss= 1.8154150563843396 	 error= 66.8979600984223 percent
-error rate on dataset = 65.8775515702306 percent
+epoch= 48 	 time= 3.6173320690790813 min 	 lr= 0.001 	 loss= 1.7881967194226323 	 error= 63.38775632332783 percent
+error rate on dataset = 66.36734726477643 percent
  
-epoch= 47 	 time= 3.468964461485545 min 	 lr= 0.001 	 loss= 1.8311852241049007 	 error= 68.10204192083708 percent
-error rate on dataset = 65.53061336887126 percent
+epoch= 49 	 time= 3.69155646165212 min 	 lr= 0.001 	 loss= 1.775296688079834 	 error= 62.1428585782343 percent
+error rate on dataset = 61.42857257200747 percent
  
-epoch= 48 	 time= 3.5412870486577352 min 	 lr= 0.001 	 loss= 1.7978297082745298 	 error= 64.53061261955573 percent
-error rate on dataset = 64.30612340265391 percent
+epoch= 50 	 time= 3.766182180245717 min 	 lr= 0.001 	 loss= 1.7994265580663875 	 error= 64.83673587137339 percent
+error rate on dataset = 63.489796799056386 percent
  
-epoch= 49 	 time= 3.613093070189158 min 	 lr= 0.001 	 loss= 1.8054281010919688 	 error= 65.5306127606606 percent
-error rate on dataset = 63.7142860159582 percent
+epoch= 51 	 time= 3.8407854636510215 min 	 lr= 0.001 	 loss= 1.7958836141897707 	 error= 64.3877560995063 percent
+error rate on dataset = 63.06122541427612 percent
  
-epoch= 50 	 time= 3.685121496518453 min 	 lr= 0.001 	 loss= 1.7989300100170835 	 error= 64.67346974781582 percent
-error rate on dataset = 63.530612478450855 percent
+epoch= 52 	 time= 3.914909470081329 min 	 lr= 0.001 	 loss= 1.7963372955516892 	 error= 64.4693884314323 percent
+error rate on dataset = 61.69387868472508 percent
  
-epoch= 51 	 time= 3.7582640012105304 min 	 lr= 0.001 	 loss= 1.8094030205084353 	 error= 65.57142916990786 percent
-error rate on dataset = 63.38775608004356 percent
+epoch= 53 	 time= 3.988263241449992 min 	 lr= 0.001 	 loss= 1.7836004811890271 	 error= 63.122449480757425 percent
+error rate on dataset = 61.36734741074699 percent
  
-epoch= 52 	 time= 3.8301598191261292 min 	 lr= 0.001 	 loss= 1.798318945631689 	 error= 64.71428713020013 percent
-error rate on dataset = 64.16326590946743 percent
+epoch= 54 	 time= 4.06078534523646 min 	 lr= 0.001 	 loss= 1.7794973412338568 	 error= 62.65306217329842 percent
+error rate on dataset = 60.775510997188334 percent
  
-epoch= 53 	 time= 3.9028016567230224 min 	 lr= 0.001 	 loss= 1.8033424907801103 	 error= 64.7551024446682 percent
-error rate on dataset = 65.83673601247826 percent
+epoch= 55 	 time= 4.13546115954717 min 	 lr= 0.001 	 loss= 1.7785648448126656 	 error= 62.73469450522442 percent
+error rate on dataset = 59.55102139589737 percent
  
-epoch= 54 	 time= 3.9774825016657513 min 	 lr= 0.001 	 loss= 1.7949968527774423 	 error= 64.67346974781582 percent
-error rate on dataset = 66.40816367402368 percent
+epoch= 56 	 time= 4.209923736254374 min 	 lr= 0.001 	 loss= 1.781249686163299 	 error= 62.48979714452004 percent
+error rate on dataset = 62.6122455207669 percent
  
-epoch= 55 	 time= 4.0500576535860695 min 	 lr= 0.001 	 loss= 1.7925061620011622 	 error= 64.46938818814803 percent
-error rate on dataset = 63.77551081229229 percent
+epoch= 57 	 time= 4.288941105206807 min 	 lr= 0.001 	 loss= 1.781081951394373 	 error= 62.97959332563438 percent
+error rate on dataset = 60.163265831616464 percent
  
-epoch= 56 	 time= 4.122613565127055 min 	 lr= 0.001 	 loss= 1.787494742140478 	 error= 63.2653069739439 percent
-error rate on dataset = 64.46938745829523 percent
+epoch= 58 	 time= 4.365294476350148 min 	 lr= 0.001 	 loss= 1.7640248610048879 	 error= 61.0408177181166 percent
+error rate on dataset = 58.204083418359566 percent
  
-epoch= 57 	 time= 4.198113973935445 min 	 lr= 0.001 	 loss= 1.7884353180320895 	 error= 63.24489883014134 percent
-error rate on dataset = 62.040816886084414 percent
+epoch= 59 	 time= 4.439235337575277 min 	 lr= 0.001 	 loss= 1.776811855179923 	 error= 62.1428578483815 percent
+error rate on dataset = 59.22449097341421 percent
  
-epoch= 58 	 time= 4.27172019481659 min 	 lr= 0.001 	 loss= 1.7791657082888546 	 error= 62.42857198325955 percent
-error rate on dataset = 62.55102096771707 percent
+epoch= 60 	 time= 4.5130924423535665 min 	 lr= 0.001 	 loss= 1.775961625332735 	 error= 62.26530683283903 percent
+error rate on dataset = 59.755102955565164 percent
  
-epoch= 59 	 time= 4.344850325584412 min 	 lr= 0.001 	 loss= 1.7808703257113088 	 error= 62.34693928640716 percent
-error rate on dataset = 63.244898586857076 percent
+epoch= 61 	 time= 4.5867305835088095 min 	 lr= 0.001 	 loss= 1.7652948559546957 	 error= 60.97959267849825 percent
+error rate on dataset = 60.53061387976821 percent
  
-epoch= 60 	 time= 4.417038361231486 min 	 lr= 0.001 	 loss= 1.7917823061651112 	 error= 64.04081704665204 percent
-error rate on dataset = 60.632654112212514 percent
+epoch= 62 	 time= 4.659689279397329 min 	 lr= 0.001 	 loss= 1.7665613281483552 	 error= 61.571429335341165 percent
+error rate on dataset = 59.36734822331643 percent
  
-epoch= 61 	 time= 4.490839564800263 min 	 lr= 0.001 	 loss= 1.780311080874229 	 error= 62.571429233161766 percent
-error rate on dataset = 61.36734753238912 percent
+epoch= 63 	 time= 4.735122263431549 min 	 lr= 0.001 	 loss= 1.7686811077351472 	 error= 61.42857245036534 percent
+error rate on dataset = 60.18367458362969 percent
  
-epoch= 62 	 time= 4.563768366972606 min 	 lr= 0.001 	 loss= 1.774499048992079 	 error= 61.91836802326903 percent
-error rate on dataset = 62.51020516668048 percent
+epoch= 64 	 time= 4.809192359447479 min 	 lr= 0.001 	 loss= 1.7679468077056262 	 error= 61.48979688177303 percent
+error rate on dataset = 59.55102127425525 percent
  
-epoch= 63 	 time= 4.636461234092712 min 	 lr= 0.001 	 loss= 1.7821283510753088 	 error= 62.67347007381673 percent
-error rate on dataset = 60.87755232441182 percent
+epoch= 65 	 time= 4.883117055892944 min 	 lr= 0.001 	 loss= 1.7665659651464345 	 error= 61.18367484637669 percent
+error rate on dataset = 60.59183758132312 percent
  
-epoch= 64 	 time= 4.710510691006978 min 	 lr= 0.001 	 loss= 1.7741914719951397 	 error= 62.28571509828373 percent
-error rate on dataset = 59.81632775189926 percent
+epoch= 66 	 time= 4.957213513056437 min 	 lr= 0.001 	 loss= 1.7651374194086815 	 error= 61.00000118722721 percent
+error rate on dataset = 62.204082036504936 percent
  
-epoch= 65 	 time= 4.782323479652405 min 	 lr= 0.001 	 loss= 1.7582033823947518 	 error= 60.020408824998505 percent
-error rate on dataset = 59.91836798434355 percent
+epoch= 67 	 time= 5.0352582653363545 min 	 lr= 0.001 	 loss= 1.749450540056034 	 error= 59.040817922475384 percent
+error rate on dataset = 59.04081755754898 percent
  
-epoch= 66 	 time= 4.855260399977366 min 	 lr= 0.001 	 loss= 1.7666777834600331 	 error= 60.938776147608856 percent
-error rate on dataset = 60.285715059358246 percent
+epoch= 68 	 time= 5.11214257478714 min 	 lr= 0.001 	 loss= 1.770388707822683 	 error= 61.46938849468621 percent
+error rate on dataset = 58.55102137643464 percent
  
-epoch= 67 	 time= 4.927987591425578 min 	 lr= 0.001 	 loss= 1.7668160029820033 	 error= 61.83673605626944 percent
-error rate on dataset = 60.65306249929934 percent
+epoch= 69 	 time= 5.186771086851755 min 	 lr= 0.001 	 loss= 1.7668050941155882 	 error= 60.91836873365908 percent
+error rate on dataset = 59.16326702857504 percent
  
-epoch= 68 	 time= 5.000277658303578 min 	 lr= 0.001 	 loss= 1.7535343535092411 	 error= 59.73469469012046 percent
-error rate on dataset = 60.55102190192865 percent
- 
-epoch= 69 	 time= 5.072884917259216 min 	 lr= 0.001 	 loss= 1.7600305080413818 	 error= 60.57142980244695 percent
+epoch= 70 	 time= 5.259635595480601 min 	 lr= 0.001 	 loss= 1.7639634341609722 	 error= 61.32653160971038 percent
 error rate on dataset = 59.59183792678677 percent
  
-epoch= 70 	 time= 5.1510669151941935 min 	 lr= 0.001 	 loss= 1.7611635412488664 	 error= 60.653062620941476 percent
-error rate on dataset = 60.265307037197815 percent
+epoch= 71 	 time= 5.333534157276153 min 	 lr= 0.001 	 loss= 1.7586881968439843 	 error= 60.73469495286747 percent
+error rate on dataset = 58.81632724586798 percent
  
-epoch= 71 	 time= 5.2262564977010095 min 	 lr= 0.001 	 loss= 1.7570435197985903 	 error= 60.122450030579856 percent
-error rate on dataset = 58.65306197380533 percent
+epoch= 72 	 time= 5.407889370123545 min 	 lr= 0.001 	 loss= 1.756054080262476 	 error= 60.000001167764474 percent
+error rate on dataset = 60.18367458362969 percent
  
-epoch= 72 	 time= 5.29975657860438 min 	 lr= 0.001 	 loss= 1.7614503879936374 	 error= 60.67347003489124 percent
-error rate on dataset = 59.489796964489685 percent
+epoch= 73 	 time= 5.4862176100413 min 	 lr= 0.001 	 loss= 1.7633697135107858 	 error= 61.22449076905543 percent
+error rate on dataset = 58.591837785681896 percent
  
-epoch= 73 	 time= 5.372504389286041 min 	 lr= 0.001 	 loss= 1.7655908574863357 	 error= 60.918368368732686 percent
-error rate on dataset = 61.204082260326466 percent
+epoch= 74 	 time= 5.560304073492686 min 	 lr= 0.001 	 loss= 1.745492942479192 	 error= 59.06122557970942 percent
+error rate on dataset = 58.26530736319873 percent
  
-epoch= 74 	 time= 5.445641688505808 min 	 lr= 0.001 	 loss= 1.74155985822483 	 error= 58.75510269281815 percent
-error rate on dataset = 57.24489871336489 percent
+epoch= 75 	 time= 5.635579029719035 min 	 lr= 0.001 	 loss= 1.7508102436454929 	 error= 59.93877637143038 percent
+error rate on dataset = 58.14285862202547 percent
  
-epoch= 75 	 time= 5.5193003217379255 min 	 lr= 0.001 	 loss= 1.7591727923373788 	 error= 60.36734824277916 percent
-error rate on dataset = 63.00000098286843 percent
+epoch= 76 	 time= 5.711039217313131 min 	 lr= 0.001 	 loss= 1.7530408562446127 	 error= 59.77551146429412 percent
+error rate on dataset = 60.83673567188029 percent
  
-epoch= 76 	 time= 5.59183421532313 min 	 lr= 0.001 	 loss= 1.7400564174262845 	 error= 58.61224605112659 percent
-error rate on dataset = 59.10204296209373 percent
+epoch= 77 	 time= 5.785256866614024 min 	 lr= 0.001 	 loss= 1.7437995380284834 	 error= 58.95918461741233 percent
+error rate on dataset = 57.22449056956233 percent
  
-epoch= 77 	 time= 5.666697704792023 min 	 lr= 0.001 	 loss= 1.770980209720378 	 error= 62.00000035519503 percent
-error rate on dataset = 60.42857279582899 percent
+epoch= 78 	 time= 5.860802908738454 min 	 lr= 0.001 	 loss= 1.7482518590226466 	 error= 59.346939957871726 percent
+error rate on dataset = 57.59183800950343 percent
  
-epoch= 78 	 time= 5.740121344725291 min 	 lr= 0.001 	 loss= 1.7393449763862454 	 error= 58.38775634765625 percent
-error rate on dataset = 56.04081749916077 percent
+epoch= 79 	 time= 5.9348960240681965 min 	 lr= 0.001 	 loss= 1.7522226231438773 	 error= 59.89796069203591 percent
+error rate on dataset = 57.55102123532977 percent
  
-epoch= 79 	 time= 5.812638795375824 min 	 lr= 0.001 	 loss= 1.7410210541316442 	 error= 58.816327975720775 percent
-error rate on dataset = 59.10204150238816 percent
+epoch= 80 	 time= 6.0097980976104735 min 	 lr= 0.001 	 loss= 1.7494932145488507 	 error= 59.6734703803549 percent
+error rate on dataset = 56.693878465769245 percent
  
-epoch= 80 	 time= 5.885521864891052 min 	 lr= 0.001 	 loss= 1.7407711330725222 	 error= 58.89795945615185 percent
-error rate on dataset = 57.87755299587639 percent
+epoch= 81 	 time= 6.085445026556651 min 	 lr= 0.0001 	 loss= 1.7122249092374529 	 error= 55.12245005490829 percent
+error rate on dataset = 55.38775616762589 percent
  
-epoch= 81 	 time= 5.958738390604655 min 	 lr= 0.0001 	 loss= 1.7102908601566238 	 error= 55.12244920341336 percent
-error rate on dataset = 54.89796132457499 percent
+epoch= 82 	 time= 6.159287536144257 min 	 lr= 0.0001 	 loss= 1.7121175357273646 	 error= 55.42857221194676 percent
+error rate on dataset = 55.0408173580559 percent
  
-epoch= 82 	 time= 6.031099736690521 min 	 lr= 0.0001 	 loss= 1.701626578155829 	 error= 54.30612369459502 percent
-error rate on dataset = 54.30612332966863 percent
+epoch= 83 	 time= 6.238827502727508 min 	 lr= 0.0001 	 loss= 1.7053115367889404 	 error= 55.02040957917973 percent
+error rate on dataset = 54.67347089125185 percent
  
-epoch= 83 	 time= 6.102916844685873 min 	 lr= 0.0001 	 loss= 1.7012757744107927 	 error= 54.26530740698989 percent
-error rate on dataset = 54.44898070121298 percent
+epoch= 84 	 time= 6.313211007912954 min 	 lr= 0.0001 	 loss= 1.7098167915733493 	 error= 54.71428681393059 percent
+error rate on dataset = 53.85714331451727 percent
  
-epoch= 84 	 time= 6.1747030099233 min 	 lr= 0.0001 	 loss= 1.7038490966874726 	 error= 54.40816404868145 percent
-error rate on dataset = 54.02040919479059 percent
+epoch= 85 	 time= 6.3882980386416115 min 	 lr= 0.0001 	 loss= 1.706014270685157 	 error= 54.489796502249575 percent
+error rate on dataset = 53.57142954456563 percent
  
-epoch= 85 	 time= 6.249536987145742 min 	 lr= 0.0001 	 loss= 1.6995256993235375 	 error= 54.081633869482545 percent
-error rate on dataset = 53.46938943376347 percent
+epoch= 86 	 time= 6.464088467756907 min 	 lr= 0.0001 	 loss= 1.7033138737386586 	 error= 54.77551124533828 percent
+error rate on dataset = 52.91836821303075 percent
  
-epoch= 86 	 time= 6.321340016523997 min 	 lr= 0.0001 	 loss= 1.6982615091362778 	 error= 53.93877734943312 percent
-error rate on dataset = 53.183674447390494 percent
+epoch= 87 	 time= 6.537785681088765 min 	 lr= 0.0001 	 loss= 1.7038889077244972 	 error= 54.20408285394007 percent
+error rate on dataset = 53.48979733428176 percent
  
-epoch= 87 	 time= 6.393684446811676 min 	 lr= 0.0001 	 loss= 1.7041104399428075 	 error= 54.6122462165599 percent
-error rate on dataset = 53.10204187218024 percent
+epoch= 88 	 time= 6.612978982925415 min 	 lr= 0.0001 	 loss= 1.7002080776253525 	 error= 54.04081733859315 percent
+error rate on dataset = 54.02040980300124 percent
  
-epoch= 88 	 time= 6.466067532698314 min 	 lr= 0.0001 	 loss= 1.6998776684002 	 error= 53.816327756764935 percent
-error rate on dataset = 53.10204150725384 percent
+epoch= 89 	 time= 6.687546209494273 min 	 lr= 0.0001 	 loss= 1.7031530433771562 	 error= 54.612245973275634 percent
+error rate on dataset = 54.632653995436065 percent
  
-epoch= 89 	 time= 6.539578183492025 min 	 lr= 0.0001 	 loss= 1.6946676531616522 	 error= 53.73469542483894 percent
+epoch= 90 	 time= 6.761799542109172 min 	 lr= 0.0001 	 loss= 1.698736132407675 	 error= 54.16326668797707 percent
+error rate on dataset = 52.571429281818624 percent
+ 
+epoch= 91 	 time= 6.837025237083435 min 	 lr= 0.0001 	 loss= 1.6949758481006234 	 error= 53.244898513871796 percent
+error rate on dataset = 53.57142954456563 percent
+ 
+epoch= 92 	 time= 6.911270336310069 min 	 lr= 0.0001 	 loss= 1.694137960064168 	 error= 52.87755277692055 percent
 error rate on dataset = 53.081633728377675 percent
  
-epoch= 90 	 time= 6.613217874368032 min 	 lr= 0.0001 	 loss= 1.6934543239827058 	 error= 53.30612343184802 percent
-error rate on dataset = 52.95918413570949 percent
+epoch= 93 	 time= 6.983932220935822 min 	 lr= 0.0001 	 loss= 1.6973791025122817 	 error= 54.04081770351955 percent
+error rate on dataset = 53.081633606735544 percent
  
-epoch= 91 	 time= 6.686044335365295 min 	 lr= 0.0001 	 loss= 1.6934736212905572 	 error= 53.18367420410623 percent
-error rate on dataset = 53.530613135318376 percent
+epoch= 94 	 time= 7.05771180788676 min 	 lr= 0.0001 	 loss= 1.6977383725497188 	 error= 53.40816475907151 percent
+error rate on dataset = 53.55102103583667 percent
  
-epoch= 92 	 time= 6.75887101093928 min 	 lr= 0.0001 	 loss= 1.6914401273338162 	 error= 52.93877684340185 percent
-error rate on dataset = 53.28571516640332 percent
+epoch= 95 	 time= 7.133687182267507 min 	 lr= 0.0001 	 loss= 1.6944751277261851 	 error= 53.06122546293297 percent
+error rate on dataset = 53.69387865066528 percent
  
-epoch= 93 	 time= 6.830785763263703 min 	 lr= 0.0001 	 loss= 1.6934671256006981 	 error= 53.387756007058286 percent
-error rate on dataset = 53.4693888255528 percent
+epoch= 96 	 time= 7.208131794134776 min 	 lr= 0.0001 	 loss= 1.6927053052551893 	 error= 53.122449894340676 percent
+error rate on dataset = 53.91836847577777 percent
  
-epoch= 94 	 time= 6.901630365848542 min 	 lr= 0.0001 	 loss= 1.6874095420448147 	 error= 52.5102047287688 percent
-error rate on dataset = 53.02040929696999 percent
+epoch= 97 	 time= 7.281663183371226 min 	 lr= 0.0001 	 loss= 1.6988266414525557 	 error= 54.06122536075358 percent
+error rate on dataset = 53.408164515787234 percent
  
-epoch= 95 	 time= 6.9743001699447635 min 	 lr= 0.0001 	 loss= 1.6877314898432518 	 error= 52.877551682141366 percent
-error rate on dataset = 52.32653216439851 percent
+epoch= 98 	 time= 7.356890932718913 min 	 lr= 0.0001 	 loss= 1.6966669997390436 	 error= 53.65306211977588 percent
+error rate on dataset = 52.65306197867101 percent
  
-epoch= 96 	 time= 7.045745225747426 min 	 lr= 0.0001 	 loss= 1.6951392475439577 	 error= 53.26530665767436 percent
-error rate on dataset = 53.38775612870042 percent
+epoch= 99 	 time= 7.4330962061882015 min 	 lr= 0.0001 	 loss= 1.699835638610684 	 error= 54.36734751779206 percent
+error rate on dataset = 53.30612331020589 percent
  
-epoch= 97 	 time= 7.1181663274765015 min 	 lr= 0.0001 	 loss= 1.6938532858478779 	 error= 53.77551086094915 percent
-error rate on dataset = 53.26530714424289 percent
+epoch= 100 	 time= 7.506568729877472 min 	 lr= 0.0001 	 loss= 1.694642923316177 	 error= 53.65306248470228 percent
+error rate on dataset = 53.14285779485897 percent
  
-epoch= 98 	 time= 7.191985897223154 min 	 lr= 0.0001 	 loss= 1.692566076103522 	 error= 53.55102091419454 percent
-error rate on dataset = 52.00000064713615 percent
+epoch= 101 	 time= 7.581556761264801 min 	 lr= 0.0001 	 loss= 1.6911836011069161 	 error= 52.91836796974649 percent
+error rate on dataset = 53.67347135835764 percent
  
-epoch= 99 	 time= 7.2655891418457035 min 	 lr= 0.0001 	 loss= 1.6865518749976645 	 error= 52.55102113801606 percent
-error rate on dataset = 52.612245934350156 percent
+epoch= 102 	 time= 7.6564796010653176 min 	 lr= 0.0001 	 loss= 1.6872504390015894 	 error= 52.55102101637392 percent
+error rate on dataset = 52.57142964674502 percent
  
-epoch= 100 	 time= 7.33836210568746 min 	 lr= 0.0001 	 loss= 1.686202891018926 	 error= 52.22449108045928 percent
-error rate on dataset = 52.183674306285624 percent
+epoch= 103 	 time= 7.732999742031097 min 	 lr= 0.0001 	 loss= 1.6910623360653312 	 error= 52.755103062610246 percent
+error rate on dataset = 52.18367491449628 percent
  
-epoch= 101 	 time= 7.413220067818959 min 	 lr= 0.0001 	 loss= 1.6901088271822249 	 error= 53.081633606735544 percent
-error rate on dataset = 52.04081693474127 percent
+epoch= 104 	 time= 7.8070751587549845 min 	 lr= 0.0001 	 loss= 1.6953861445796734 	 error= 54.00000178084081 percent
+error rate on dataset = 51.85714424872885 percent
  
-epoch= 102 	 time= 7.4866453011830645 min 	 lr= 0.0001 	 loss= 1.6843643237133414 	 error= 52.10204136614897 percent
-error rate on dataset = 52.83673539453623 percent
+epoch= 105 	 time= 7.882339795430501 min 	 lr= 0.0001 	 loss= 1.69351792092226 	 error= 53.448980195181704 percent
+error rate on dataset = 52.73469516209194 percent
  
-epoch= 103 	 time= 7.561041955153147 min 	 lr= 0.0001 	 loss= 1.6860821952625198 	 error= 52.63265383486845 percent
-error rate on dataset = 52.24489910261971 percent
+epoch= 106 	 time= 7.956155351797739 min 	 lr= 0.0001 	 loss= 1.6894443059454158 	 error= 53.1632658170194 percent
+error rate on dataset = 52.40816400975598 percent
  
-epoch= 104 	 time= 7.632906067371368 min 	 lr= 0.0001 	 loss= 1.684137157031468 	 error= 52.65306234359741 percent
-error rate on dataset = 52.183674306285624 percent
+epoch= 107 	 time= 8.030478930473327 min 	 lr= 0.0001 	 loss= 1.6906482175904878 	 error= 52.836735637820496 percent
+error rate on dataset = 53.16326606030367 percent
  
-epoch= 105 	 time= 7.706273738543192 min 	 lr= 0.0001 	 loss= 1.6837342199014158 	 error= 52.346939821632546 percent
-error rate on dataset = 52.65306210031315 percent
+epoch= 108 	 time= 8.10701576868693 min 	 lr= 0.0001 	 loss= 1.690114865497667 	 error= 53.081633363451274 percent
+error rate on dataset = 52.73469528373407 percent
  
-epoch= 106 	 time= 7.780348718166351 min 	 lr= 0.0001 	 loss= 1.6854727243890568 	 error= 52.53061360242416 percent
-error rate on dataset = 52.32653119126145 percent
+epoch= 109 	 time= 8.181372555096944 min 	 lr= 0.0001 	 loss= 1.6903356094749606 	 error= 53.14285828142749 percent
+error rate on dataset = 52.36734772215084 percent
  
-epoch= 107 	 time= 7.853288813432058 min 	 lr= 0.0001 	 loss= 1.6890158239676027 	 error= 52.836735516178365 percent
-error rate on dataset = 51.795919209110494 percent
+epoch= 110 	 time= 8.256062877178191 min 	 lr= 0.0001 	 loss= 1.6857456382440061 	 error= 52.346939456706146 percent
+error rate on dataset = 51.87755190596288 percent
  
-epoch= 108 	 time= 7.926807860533397 min 	 lr= 0.0001 	 loss= 1.680530849768191 	 error= 51.97959274661784 percent
-error rate on dataset = 52.08163395219919 percent
+epoch= 111 	 time= 8.330519553025564 min 	 lr= 0.0001 	 loss= 1.6896182858214086 	 error= 52.91836809138862 percent
+error rate on dataset = 52.469388441163666 percent
  
-epoch= 109 	 time= 8.000522283713023 min 	 lr= 0.0001 	 loss= 1.6835767055044368 	 error= 52.40816388811383 percent
-error rate on dataset = 51.2244909393544 percent
+epoch= 112 	 time= 8.405966965357463 min 	 lr= 0.0001 	 loss= 1.689457238936911 	 error= 52.51020497205307 percent
+error rate on dataset = 52.79591898528897 percent
  
-epoch= 110 	 time= 8.073426294326783 min 	 lr= 0.0001 	 loss= 1.6866268089839391 	 error= 52.89796043415459 percent
-error rate on dataset = 51.32653165836724 percent
+epoch= 113 	 time= 8.480772443612416 min 	 lr= 0.0001 	 loss= 1.6834682834391692 	 error= 52.48979634168197 percent
+error rate on dataset = 52.44898017571897 percent
  
-epoch= 111 	 time= 8.148237574100495 min 	 lr= 0.0001 	 loss= 1.6870924818272492 	 error= 52.346939699990415 percent
-error rate on dataset = 52.183674306285624 percent
+epoch= 114 	 time= 8.55764217376709 min 	 lr= 0.0001 	 loss= 1.6823960469693553 	 error= 51.85714412708672 percent
+error rate on dataset = 52.979592766080586 percent
  
-epoch= 112 	 time= 8.223169445991516 min 	 lr= 0.0001 	 loss= 1.6776213305337089 	 error= 51.55102136183758 percent
+epoch= 115 	 time= 8.633271475632986 min 	 lr= 0.0001 	 loss= 1.68343266419002 	 error= 52.16326604084093 percent
 error rate on dataset = 52.28571526858271 percent
  
-epoch= 113 	 time= 8.297024166584015 min 	 lr= 0.0001 	 loss= 1.6789153619688384 	 error= 51.85714327559179 percent
-error rate on dataset = 51.30612302799614 percent
+epoch= 116 	 time= 8.708267215887705 min 	 lr= 0.0001 	 loss= 1.6860008653329344 	 error= 52.89795994758606 percent
+error rate on dataset = 51.61224615817167 percent
  
-epoch= 114 	 time= 8.370230400562287 min 	 lr= 0.0001 	 loss= 1.6905229018659007 	 error= 53.12245013762493 percent
-error rate on dataset = 52.38775598759554 percent
+epoch= 117 	 time= 8.783695848782857 min 	 lr= 0.0001 	 loss= 1.6909738438470023 	 error= 53.10204187218024 percent
+error rate on dataset = 51.81632735291306 percent
  
-epoch= 115 	 time= 8.444095659255982 min 	 lr= 0.0001 	 loss= 1.6823835859493332 	 error= 51.938776094086315 percent
-error rate on dataset = 51.836735375073495 percent
+epoch= 118 	 time= 8.857724320888519 min 	 lr= 0.0001 	 loss= 1.6844955828725074 	 error= 52.102041244506836 percent
+error rate on dataset = 52.306123412385276 percent
  
-epoch= 116 	 time= 8.51797821521759 min 	 lr= 0.0001 	 loss= 1.6747237346610244 	 error= 51.10204134668622 percent
-error rate on dataset = 51.77551118695006 percent
+epoch= 119 	 time= 8.932727571328481 min 	 lr= 0.0001 	 loss= 1.6828069613904368 	 error= 52.22449059389076 percent
+error rate on dataset = 51.59183777108485 percent
  
-epoch= 117 	 time= 8.590861988067626 min 	 lr= 0.0001 	 loss= 1.6804543587626244 	 error= 51.938776945581246 percent
-error rate on dataset = 50.795919068005624 percent
+epoch= 120 	 time= 9.006692353884379 min 	 lr= 0.0001 	 loss= 1.6834684367082557 	 error= 52.28571551186698 percent
+error rate on dataset = 52.346939335064015 percent
  
-epoch= 118 	 time= 8.663195470968882 min 	 lr= 0.0001 	 loss= 1.681645079534881 	 error= 52.00000076877828 percent
-error rate on dataset = 51.59183752780058 percent
+epoch= 121 	 time= 9.08161696990331 min 	 lr= 1e-05 	 loss= 1.6804049793554812 	 error= 51.979592503333585 percent
+error rate on dataset = 51.44898088610902 percent
  
-epoch= 119 	 time= 8.736616090933483 min 	 lr= 0.0001 	 loss= 1.6802818020995782 	 error= 52.02040842601231 percent
-error rate on dataset = 51.65306208085041 percent
+epoch= 122 	 time= 9.156903767585755 min 	 lr= 1e-05 	 loss= 1.6716663399521186 	 error= 50.44898050171989 percent
+error rate on dataset = 51.40816374700896 percent
  
-epoch= 120 	 time= 8.809394180774689 min 	 lr= 0.0001 	 loss= 1.6800367053674192 	 error= 52.14285777539624 percent
-error rate on dataset = 51.67347010301084 percent
+epoch= 123 	 time= 9.231533169746399 min 	 lr= 1e-05 	 loss= 1.6794702666146415 	 error= 51.55102136183758 percent
+error rate on dataset = 51.83673561835776 percent
  
-epoch= 121 	 time= 8.882685859998068 min 	 lr= 1e-05 	 loss= 1.673950584567323 	 error= 51.10204171161262 percent
-error rate on dataset = 51.163266021378185 percent
+epoch= 124 	 time= 9.307055985927581 min 	 lr= 1e-05 	 loss= 1.6809565947980296 	 error= 51.81632747455519 percent
+error rate on dataset = 51.63265357212145 percent
  
-epoch= 122 	 time= 8.95677481094996 min 	 lr= 1e-05 	 loss= 1.6749569737181371 	 error= 51.48979607893496 percent
-error rate on dataset = 51.18367416518075 percent
+epoch= 125 	 time= 9.38160095612208 min 	 lr= 1e-05 	 loss= 1.6770130371560856 	 error= 51.18367453010715 percent
+error rate on dataset = 51.530613218035015 percent
  
-epoch= 123 	 time= 9.029101181030274 min 	 lr= 1e-05 	 loss= 1.675095331912138 	 error= 51.6938786117398 percent
-error rate on dataset = 51.3061232712804 percent
+epoch= 126 	 time= 9.454607494672139 min 	 lr= 1e-05 	 loss= 1.677711187576761 	 error= 51.63265369376357 percent
+error rate on dataset = 51.83673561835776 percent
  
-epoch= 124 	 time= 9.102040565013885 min 	 lr= 1e-05 	 loss= 1.6658652266677545 	 error= 50.387755827027924 percent
-error rate on dataset = 51.04081703692066 percent
+epoch= 127 	 time= 9.52894185781479 min 	 lr= 1e-05 	 loss= 1.6762339825532875 	 error= 51.387756211417056 percent
+error rate on dataset = 51.653062324134666 percent
  
-epoch= 125 	 time= 9.175739975770314 min 	 lr= 1e-05 	 loss= 1.6794608052895994 	 error= 51.6122462798138 percent
-error rate on dataset = 50.59183750833783 percent
+epoch= 128 	 time= 9.604566319783528 min 	 lr= 1e-05 	 loss= 1.6779257034768864 	 error= 51.69387812517128 percent
+error rate on dataset = 51.204082065699055 percent
  
-epoch= 126 	 time= 9.250328290462495 min 	 lr= 1e-05 	 loss= 1.676937392779759 	 error= 51.73469429113426 percent
-error rate on dataset = 51.48979705207202 percent
+epoch= 129 	 time= 9.6791845480601 min 	 lr= 1e-05 	 loss= 1.6713503891107988 	 error= 50.61224540885614 percent
+error rate on dataset = 51.693878003529136 percent
  
-epoch= 127 	 time= 9.324212491512299 min 	 lr= 1e-05 	 loss= 1.6771765314802831 	 error= 51.69387812517128 percent
-error rate on dataset = 50.97959260551297 percent
+epoch= 130 	 time= 9.752732582887013 min 	 lr= 1e-05 	 loss= 1.6743656956419652 	 error= 51.40816399029323 percent
+error rate on dataset = 51.32653178000937 percent
  
-epoch= 128 	 time= 9.398072803020478 min 	 lr= 1e-05 	 loss= 1.6709581248614254 	 error= 51.122450341983715 percent
-error rate on dataset = 50.979592848797225 percent
+epoch= 131 	 time= 9.826392197608948 min 	 lr= 1e-05 	 loss= 1.6789274458982506 	 error= 51.57142950564014 percent
+error rate on dataset = 51.00000123588406 percent
  
-epoch= 129 	 time= 9.471430917580923 min 	 lr= 1e-05 	 loss= 1.6702441415008233 	 error= 50.57142924289314 percent
-error rate on dataset = 51.020409379686626 percent
+epoch= 132 	 time= 9.901727708180745 min 	 lr= 1e-05 	 loss= 1.6729023918813588 	 error= 51.163266021378185 percent
+error rate on dataset = 51.428572012453664 percent
  
-epoch= 130 	 time= 9.545732716719309 min 	 lr= 1e-05 	 loss= 1.671062175108462 	 error= 51.00000147916832 percent
-error rate on dataset = 51.428572620664326 percent
+epoch= 133 	 time= 9.976578577359517 min 	 lr= 1e-05 	 loss= 1.6789396417384246 	 error= 51.65306208085041 percent
+error rate on dataset = 51.775511430234324 percent
  
-epoch= 131 	 time= 9.61952969233195 min 	 lr= 1e-05 	 loss= 1.6749364478247506 	 error= 51.46938890826945 percent
-error rate on dataset = 50.30612276524914 percent
+epoch= 134 	 time= 10.050519927342732 min 	 lr= 1e-05 	 loss= 1.6809580861305704 	 error= 52.22449083717502 percent
+error rate on dataset = 51.48979693042989 percent
  
-epoch= 132 	 time= 9.694850413004557 min 	 lr= 1e-05 	 loss= 1.6719799406674443 	 error= 50.85714337777119 percent
-error rate on dataset = 50.51020517641184 percent
+epoch= 135 	 time= 10.125936233997345 min 	 lr= 1e-05 	 loss= 1.6799232862433608 	 error= 52.061225078543835 percent
+error rate on dataset = 51.51020507423245 percent
  
-epoch= 133 	 time= 9.772661630312601 min 	 lr= 1e-05 	 loss= 1.675656043753332 	 error= 51.489796200577096 percent
-error rate on dataset = 50.9795927271551 percent
+epoch= 136 	 time= 10.19920179049174 min 	 lr= 1e-05 	 loss= 1.6793219702584403 	 error= 51.93877670229698 percent
+error rate on dataset = 51.14285763429136 percent
  
-epoch= 134 	 time= 9.846670158704121 min 	 lr= 1e-05 	 loss= 1.6707324105866102 	 error= 50.93877583133931 percent
-error rate on dataset = 51.0816333245258 percent
+epoch= 137 	 time= 10.272904241085053 min 	 lr= 1e-05 	 loss= 1.6776661678236358 	 error= 51.591837284516316 percent
+error rate on dataset = 51.73469465606067 percent
  
-epoch= 135 	 time= 9.919582521915435 min 	 lr= 1e-05 	 loss= 1.6752714283612309 	 error= 51.36734733776171 percent
-error rate on dataset = 51.65306183756614 percent
+epoch= 138 	 time= 10.348625028133393 min 	 lr= 1e-05 	 loss= 1.6784182178730866 	 error= 51.95918472445741 percent
+error rate on dataset = 51.632654301974235 percent
  
-epoch= 136 	 time= 9.993870083491007 min 	 lr= 1e-05 	 loss= 1.6711796984380605 	 error= 51.00000050603127 percent
-error rate on dataset = 51.408164476861764 percent
+epoch= 139 	 time= 10.422184193134308 min 	 lr= 1e-05 	 loss= 1.6778077325042413 	 error= 51.795918965826225 percent
+error rate on dataset = 52.18367442792776 percent
  
-epoch= 137 	 time= 10.068353021144867 min 	 lr= 1e-05 	 loss= 1.674566996340849 	 error= 51.38775572484854 percent
-error rate on dataset = 51.59183752780058 percent
+epoch= 140 	 time= 10.49562356074651 min 	 lr= 1e-05 	 loss= 1.6758710389234581 	 error= 51.530613461319284 percent
+error rate on dataset = 50.87755152157375 percent
  
-epoch= 138 	 time= 10.141549058755238 min 	 lr= 1e-05 	 loss= 1.675599463131963 	 error= 51.306123514564675 percent
-error rate on dataset = 51.061224815796834 percent
+epoch= 141 	 time= 10.570448847611745 min 	 lr= 1e-05 	 loss= 1.6779263457473443 	 error= 51.85714376216032 percent
+error rate on dataset = 50.5918373866957 percent
  
-epoch= 139 	 time= 10.216349693139394 min 	 lr= 1e-05 	 loss= 1.6776906519520038 	 error= 51.83673525343136 percent
-error rate on dataset = 50.7142862495111 percent
+epoch= 142 	 time= 10.647738047440846 min 	 lr= 1e-05 	 loss= 1.6746542307795311 	 error= 51.24489883987271 percent
+error rate on dataset = 51.53061248818223 percent
  
-epoch= 140 	 time= 10.289939149220784 min 	 lr= 1e-05 	 loss= 1.6740885851334553 	 error= 51.14285836414415 percent
-error rate on dataset = 51.061225424007496 percent
+epoch= 143 	 time= 10.723713827133178 min 	 lr= 1e-05 	 loss= 1.678465568289465 	 error= 51.87755227088928 percent
+error rate on dataset = 50.91836805246315 percent
  
-epoch= 141 	 time= 10.364301812648772 min 	 lr= 1e-05 	 loss= 1.6761268742230473 	 error= 51.48979680878776 percent
-error rate on dataset = 51.61224603652954 percent
+epoch= 144 	 time= 10.797431671619416 min 	 lr= 1e-05 	 loss= 1.6771898999506114 	 error= 52.00000089042041 percent
+error rate on dataset = 52.24489946754611 percent
  
-epoch= 142 	 time= 10.439115460713705 min 	 lr= 1e-05 	 loss= 1.6671373819818303 	 error= 50.795918946363486 percent
-error rate on dataset = 50.26530696421253 percent
- 
-epoch= 143 	 time= 10.512336925665538 min 	 lr= 1e-05 	 loss= 1.6733422911896998 	 error= 51.3061232712804 percent
-error rate on dataset = 51.48979680878776 percent
- 
-epoch= 144 	 time= 10.586073843638102 min 	 lr= 1e-05 	 loss= 1.6690923145839147 	 error= 50.775511167487316 percent
-error rate on dataset = 50.7142862495111 percent
- 
-epoch= 145 	 time= 10.659279541174572 min 	 lr= 1e-05 	 loss= 1.6707492336934926 	 error= 50.918368174105275 percent
-error rate on dataset = 51.59183801436911 percent
- 
-epoch= 146 	 time= 10.733129886786143 min 	 lr= 1e-05 	 loss= 1.6716516796423464 	 error= 50.81632745509245 percent
-error rate on dataset = 51.530612853108615 percent
- 
-epoch= 147 	 time= 10.807894472281138 min 	 lr= 1e-05 	 loss= 1.6733706775976687 	 error= 50.95918494827893 percent
-error rate on dataset = 50.673470448474504 percent
- 
-epoch= 148 	 time= 10.881028354167938 min 	 lr= 1e-05 	 loss= 1.6704687269366518 	 error= 51.18367465174928 percent
-error rate on dataset = 51.428572255737926 percent
- 
-epoch= 149 	 time= 10.955726234118144 min 	 lr= 1e-05 	 loss= 1.6701761654445104 	 error= 50.775510802560916 percent
-error rate on dataset = 50.97959260551297 percent
- 
-epoch= 150 	 time= 11.02998635371526 min 	 lr= 1e-05 	 loss= 1.6684680763556032 	 error= 50.75510253711622 percent
-error rate on dataset = 50.40816433575689 percent
- 
-epoch= 151 	 time= 11.103199903170268 min 	 lr= 1e-05 	 loss= 1.670236062030403 	 error= 51.020408893118095 percent
-error rate on dataset = 51.42857237738006 percent
- 
-epoch= 152 	 time= 11.177554178237916 min 	 lr= 1e-05 	 loss= 1.6671830586024694 	 error= 50.408163970830486 percent
-error rate on dataset = 51.24489920479911 percent
- 
-epoch= 153 	 time= 11.253626012802124 min 	 lr= 1e-05 	 loss= 1.6739728037191897 	 error= 50.897960273586975 percent
-error rate on dataset = 51.3469398021698 percent
- 
-epoch= 154 	 time= 11.328081568082174 min 	 lr= 1e-05 	 loss= 1.671609810420445 	 error= 51.0408167936364 percent
-error rate on dataset = 50.55102158565911 percent
- 
-epoch= 155 	 time= 11.401727588971456 min 	 lr= 1e-05 	 loss= 1.6736216642418686 	 error= 51.3469394372434 percent
-error rate on dataset = 50.938776196265714 percent
- 
-epoch= 156 	 time= 11.475966767470043 min 	 lr= 1e-05 	 loss= 1.6692209900641928 	 error= 50.755102780400485 percent
-error rate on dataset = 51.26530674039101 percent
- 
-epoch= 157 	 time= 11.548712178071339 min 	 lr= 1e-05 	 loss= 1.6705252199756855 	 error= 51.00000050603127 percent
-error rate on dataset = 50.59183750833783 percent
- 
-epoch= 158 	 time= 11.62686694463094 min 	 lr= 1e-05 	 loss= 1.672046955750913 	 error= 51.102041468328366 percent
-error rate on dataset = 50.6326535526587 percent
- 
-epoch= 159 	 time= 11.702052195866903 min 	 lr= 1e-05 	 loss= 1.6713553740053761 	 error= 50.795918703079224 percent
-error rate on dataset = 50.6326539175851 percent
- 
-epoch= 160 	 time= 11.776561443010966 min 	 lr= 1e-05 	 loss= 1.6722025871276855 	 error= 50.816327090166055 percent
-error rate on dataset = 50.24489845548358 percent
- 
-epoch= 161 	 time= 11.850380810101827 min 	 lr= 1e-06 	 loss= 1.6707461610132335 	 error= 50.61224565214041 percent
-error rate on dataset = 50.55102122073271 percent
- 
-epoch= 162 	 time= 11.922819658120472 min 	 lr= 1e-06 	 loss= 1.6744425369768727 	 error= 51.306123514564675 percent
-error rate on dataset = 50.61224553049827 percent
- 
-epoch= 163 	 time= 11.997595930099488 min 	 lr= 1e-06 	 loss= 1.6744391091015873 	 error= 50.71428661443748 percent
-error rate on dataset = 50.755103023684754 percent
- 
-epoch= 164 	 time= 12.07177617152532 min 	 lr= 1e-06 	 loss= 1.6711951445560067 	 error= 51.14285812085989 percent
-error rate on dataset = 50.83673559889501 percent
- 
-epoch= 165 	 time= 12.144849356015524 min 	 lr= 1e-06 	 loss= 1.6733062267303467 	 error= 51.306123514564675 percent
-error rate on dataset = 50.46938876716458 percent
- 
-epoch= 166 	 time= 12.217595001061758 min 	 lr= 1e-06 	 loss= 1.6757383297900765 	 error= 51.24489786673565 percent
-error rate on dataset = 50.32653176054662 percent
- 
-epoch= 167 	 time= 12.2924644668897 min 	 lr= 1e-06 	 loss= 1.6725798091109918 	 error= 51.34693931560127 percent
-error rate on dataset = 51.44898039954049 percent
- 
-epoch= 168 	 time= 12.367149349053701 min 	 lr= 1e-06 	 loss= 1.6676459044826275 	 error= 50.5918377516221 percent
-error rate on dataset = 50.57142960781954 percent
- 
-epoch= 169 	 time= 12.440995609760284 min 	 lr= 1e-06 	 loss= 1.6698946271623885 	 error= 50.69387798406639 percent
-error rate on dataset = 50.3061230085334 percent
- 
-epoch= 170 	 time= 12.51668428182602 min 	 lr= 1e-06 	 loss= 1.6711731759869322 	 error= 50.87755212978441 percent
-error rate on dataset = 50.530612712003744 percent
- 
-epoch= 171 	 time= 12.5892551501592 min 	 lr= 1e-06 	 loss= 1.6692902895869042 	 error= 50.836735233968625 percent
-error rate on dataset = 51.08163320288366 percent
- 
-epoch= 172 	 time= 12.664705197016398 min 	 lr= 1e-06 	 loss= 1.6741459248017292 	 error= 51.26530649710674 percent
-error rate on dataset = 51.163266021378185 percent
- 
-epoch= 173 	 time= 12.736657293637593 min 	 lr= 1e-06 	 loss= 1.6731482379290523 	 error= 51.12244961213093 percent
-error rate on dataset = 51.122449855415184 percent
- 
-epoch= 174 	 time= 12.808991475900013 min 	 lr= 1e-06 	 loss= 1.6730455525067387 	 error= 51.020409014760226 percent
-error rate on dataset = 51.22449081771228 percent
- 
-epoch= 175 	 time= 12.882287991046905 min 	 lr= 1e-06 	 loss= 1.669339350291661 	 error= 50.83673535561075 percent
-error rate on dataset = 50.40816409247262 percent
- 
-epoch= 176 	 time= 12.95497922897339 min 	 lr= 1e-06 	 loss= 1.6714435280585775 	 error= 50.87755212978441 percent
-error rate on dataset = 50.489796059472226 percent
- 
-epoch= 177 	 time= 13.028568073113759 min 	 lr= 1e-06 	 loss= 1.6702688932418823 	 error= 50.81632745509245 percent
-error rate on dataset = 50.71428673607963 percent
- 
-epoch= 178 	 time= 13.101633763313293 min 	 lr= 1e-06 	 loss= 1.6724795589641648 	 error= 51.306123514564675 percent
-error rate on dataset = 50.775511167487316 percent
- 
-epoch= 179 	 time= 13.17620709737142 min 	 lr= 1e-06 	 loss= 1.6767035844374676 	 error= 51.40816338208257 percent
-error rate on dataset = 50.85714398598184 percent
- 
-epoch= 180 	 time= 13.252223245302837 min 	 lr= 1e-06 	 loss= 1.6749790128396482 	 error= 51.20408182241478 percent
-error rate on dataset = 50.6938783489928 percent
- 
-epoch= 181 	 time= 13.32540540297826 min 	 lr= 5e-07 	 loss= 1.6674972553642429 	 error= 50.530612712003744 percent
-error rate on dataset = 50.34693941778067 percent
- 
-epoch= 182 	 time= 13.398428324858347 min 	 lr= 5e-07 	 loss= 1.6726940432373358 	 error= 51.00000074931553 percent
-error rate on dataset = 51.34693919395914 percent
- 
-epoch= 183 	 time= 13.474053049087525 min 	 lr= 5e-07 	 loss= 1.672132443408577 	 error= 50.755103145326885 percent
-error rate on dataset = 50.36734768322536 percent
- 
-epoch= 184 	 time= 13.548858066399893 min 	 lr= 5e-07 	 loss= 1.6670879660820475 	 error= 50.6326535526587 percent
-error rate on dataset = 50.326531030693836 percent
- 
-epoch= 185 	 time= 13.622653198242187 min 	 lr= 5e-07 	 loss= 1.669707016069062 	 error= 50.6326539175851 percent
-error rate on dataset = 51.44897991297196 percent
- 
-epoch= 186 	 time= 13.698140104611715 min 	 lr= 5e-07 	 loss= 1.6742717781845404 	 error= 51.061224815796834 percent
-error rate on dataset = 50.795919189647755 percent
- 
-epoch= 187 	 time= 13.772718131542206 min 	 lr= 5e-07 	 loss= 1.6663419129897137 	 error= 50.551020977448445 percent
-error rate on dataset = 51.06122518072323 percent
- 
-epoch= 188 	 time= 13.846028625965118 min 	 lr= 5e-07 	 loss= 1.6693414230735935 	 error= 50.489797032609275 percent
-error rate on dataset = 51.571429140713754 percent
- 
-epoch= 189 	 time= 13.920193374156952 min 	 lr= 5e-07 	 loss= 1.6725401002533582 	 error= 51.34693955888554 percent
-error rate on dataset = 50.020408995297494 percent
- 
-epoch= 190 	 time= 13.993966635068258 min 	 lr= 5e-07 	 loss= 1.6675425670584854 	 error= 50.448980866646274 percent
-error rate on dataset = 51.18367428682289 percent
- 
-epoch= 191 	 time= 14.067929502328237 min 	 lr= 5e-07 	 loss= 1.67000256509197 	 error= 50.87755115664735 percent
-error rate on dataset = 50.9795927271551 percent
- 
-epoch= 192 	 time= 14.142724100748698 min 	 lr= 5e-07 	 loss= 1.6684100749541302 	 error= 50.551021099090576 percent
+epoch= 145 	 time= 10.871936949094136 min 	 lr= 1e-05 	 loss= 1.6790984917660148 	 error= 52.06122495690171 percent
 error rate on dataset = 51.00000111424193 percent
  
-epoch= 193 	 time= 14.219437185923258 min 	 lr= 5e-07 	 loss= 1.6715805700847082 	 error= 50.91836841738954 percent
-error rate on dataset = 50.61224553049827 percent
+epoch= 146 	 time= 10.945553390185038 min 	 lr= 1e-05 	 loss= 1.6754433889778293 	 error= 51.22449057442802 percent
+error rate on dataset = 51.24489847494631 percent
  
-epoch= 194 	 time= 14.294357562065125 min 	 lr= 5e-07 	 loss= 1.6717054673603602 	 error= 51.18367477339141 percent
-error rate on dataset = 50.95918458335254 percent
- 
-epoch= 195 	 time= 14.367748260498047 min 	 lr= 5e-07 	 loss= 1.671571361775301 	 error= 50.71428649279536 percent
-error rate on dataset = 50.244898698767834 percent
- 
-epoch= 196 	 time= 14.443276298046111 min 	 lr= 5e-07 	 loss= 1.6746266277468935 	 error= 51.285715127477836 percent
+epoch= 147 	 time= 11.019275466601053 min 	 lr= 1e-05 	 loss= 1.68078486286864 	 error= 52.102041122864705 percent
 error rate on dataset = 51.08163344616793 percent
  
-epoch= 197 	 time= 14.518503093719483 min 	 lr= 5e-07 	 loss= 1.6753699341598822 	 error= 51.26530698367527 percent
-error rate on dataset = 50.65306181810341 percent
+epoch= 148 	 time= 11.094553045431773 min 	 lr= 1e-05 	 loss= 1.6813907234036192 	 error= 51.938776337370584 percent
+error rate on dataset = 50.9795927271551 percent
  
-epoch= 198 	 time= 14.592185012499492 min 	 lr= 5e-07 	 loss= 1.671937871952446 	 error= 50.918368174105275 percent
-error rate on dataset = 50.122449714310314 percent
+epoch= 149 	 time= 11.169369339942932 min 	 lr= 1e-05 	 loss= 1.6736259947017746 	 error= 51.061225059081096 percent
+error rate on dataset = 51.795919817321156 percent
  
-epoch= 199 	 time= 14.66593671242396 min 	 lr= 5e-07 	 loss= 1.6695127925094293 	 error= 50.653062183029796 percent
+epoch= 150 	 time= 11.243719736735025 min 	 lr= 1e-05 	 loss= 1.6759938220588528 	 error= 51.51020458766392 percent
+error rate on dataset = 51.22449069607015 percent
+ 
+epoch= 151 	 time= 11.317319631576538 min 	 lr= 1e-05 	 loss= 1.6749838395994536 	 error= 51.34693992381193 percent
+error rate on dataset = 51.10204183325475 percent
+ 
+epoch= 152 	 time= 11.392548561096191 min 	 lr= 1e-05 	 loss= 1.6795112527146632 	 error= 51.836735131789226 percent
+error rate on dataset = 50.7142862495111 percent
+ 
+epoch= 153 	 time= 11.467252826690673 min 	 lr= 1e-05 	 loss= 1.67489746881991 	 error= 50.979592848797225 percent
+error rate on dataset = 51.428572620664326 percent
+ 
+epoch= 154 	 time= 11.54160764614741 min 	 lr= 1e-05 	 loss= 1.6777854063072983 	 error= 51.61224591488741 percent
+error rate on dataset = 51.26530722695954 percent
+ 
+epoch= 155 	 time= 11.617029802004497 min 	 lr= 1e-05 	 loss= 1.6749784824799518 	 error= 51.48979632221923 percent
+error rate on dataset = 51.32653190165149 percent
+ 
+epoch= 156 	 time= 11.69115601380666 min 	 lr= 1e-05 	 loss= 1.6788939480878868 	 error= 52.02040830437018 percent
+error rate on dataset = 51.020409014760226 percent
+ 
+epoch= 157 	 time= 11.764059336980184 min 	 lr= 1e-05 	 loss= 1.6710847251269283 	 error= 50.551021099090576 percent
+error rate on dataset = 50.3469395394228 percent
+ 
+epoch= 158 	 time= 11.837893744309744 min 	 lr= 1e-05 	 loss= 1.6802332547246193 	 error= 51.77551082202366 percent
+error rate on dataset = 51.04081740184706 percent
+ 
+epoch= 159 	 time= 11.912271376450857 min 	 lr= 1e-05 	 loss= 1.6761069176148395 	 error= 51.163266021378185 percent
+error rate on dataset = 51.3877559681328 percent
+ 
+epoch= 160 	 time= 11.988044623533884 min 	 lr= 1e-05 	 loss= 1.677461424652411 	 error= 51.3877559681328 percent
+error rate on dataset = 51.08163344616793 percent
+ 
+epoch= 161 	 time= 12.060808622837067 min 	 lr= 1e-06 	 loss= 1.6750521781493206 	 error= 51.48979644386136 percent
+error rate on dataset = 51.32653129344084 percent
+ 
+epoch= 162 	 time= 12.136789651711782 min 	 lr= 1e-06 	 loss= 1.6801432492781658 	 error= 51.693878246813405 percent
 error rate on dataset = 51.163266507946716 percent
+ 
+epoch= 163 	 time= 12.209389730294545 min 	 lr= 1e-06 	 loss= 1.675266304794623 	 error= 50.97959248387084 percent
+error rate on dataset = 51.53061273146648 percent
+ 
+epoch= 164 	 time= 12.284610795974732 min 	 lr= 1e-06 	 loss= 1.6772253148409786 	 error= 51.428572012453664 percent
+error rate on dataset = 51.42857237738006 percent
+ 
+epoch= 165 	 time= 12.3604913632075 min 	 lr= 1e-06 	 loss= 1.676393788688037 	 error= 51.448980156256226 percent
+error rate on dataset = 50.61224577378254 percent
+ 
+epoch= 166 	 time= 12.435666143894196 min 	 lr= 1e-06 	 loss= 1.6770199585934074 	 error= 51.14285787757562 percent
+error rate on dataset = 51.204082187341186 percent
+ 
+epoch= 167 	 time= 12.511309210459391 min 	 lr= 1e-06 	 loss= 1.6749420044373493 	 error= 51.14285885071268 percent
+error rate on dataset = 50.55102122073271 percent
+ 
+epoch= 168 	 time= 12.585927887757618 min 	 lr= 1e-06 	 loss= 1.676354551801876 	 error= 51.71428578240531 percent
+error rate on dataset = 51.32653165836724 percent
+ 
+epoch= 169 	 time= 12.660377212365468 min 	 lr= 1e-06 	 loss= 1.6782174329368436 	 error= 51.55102099691119 percent
+error rate on dataset = 51.06122566729175 percent
+ 
+epoch= 170 	 time= 12.734787023067474 min 	 lr= 1e-06 	 loss= 1.6721508989528733 	 error= 50.83673547725288 percent
+error rate on dataset = 51.28571488419358 percent
+ 
+epoch= 171 	 time= 12.807390582561492 min 	 lr= 1e-06 	 loss= 1.6738522977245098 	 error= 50.87755176485801 percent
+error rate on dataset = 51.20408267390971 percent
+ 
+epoch= 172 	 time= 12.884554715951284 min 	 lr= 1e-06 	 loss= 1.6747024107952506 	 error= 51.326530806872306 percent
+error rate on dataset = 51.38775548156427 percent
+ 
+epoch= 173 	 time= 12.959327805042268 min 	 lr= 1e-06 	 loss= 1.6718811404948333 	 error= 51.0816333245258 percent
+error rate on dataset = 51.48979656550349 percent
+ 
+epoch= 174 	 time= 13.03369280497233 min 	 lr= 1e-06 	 loss= 1.6775304176369492 	 error= 51.7142868771845 percent
+error rate on dataset = 51.7142865122581 percent
+ 
+epoch= 175 	 time= 13.109557596842448 min 	 lr= 1e-06 	 loss= 1.6695772579738073 	 error= 50.59183750833783 percent
+error rate on dataset = 51.1632656564518 percent
+ 
+epoch= 176 	 time= 13.182911757628123 min 	 lr= 1e-06 	 loss= 1.6709166400286617 	 error= 50.6734700835481 percent
+error rate on dataset = 51.73469465606067 percent
+ 
+epoch= 177 	 time= 13.257181429862976 min 	 lr= 1e-06 	 loss= 1.6746952533721924 	 error= 50.89795966537631 percent
+error rate on dataset = 51.10204183325475 percent
+ 
+epoch= 178 	 time= 13.331139425436655 min 	 lr= 1e-06 	 loss= 1.6713289533342635 	 error= 50.67346996190597 percent
+error rate on dataset = 51.24489883987271 percent
+ 
+epoch= 179 	 time= 13.40652805964152 min 	 lr= 1e-06 	 loss= 1.6748149273346882 	 error= 51.224491304280804 percent
+error rate on dataset = 51.163266143020316 percent
+ 
+epoch= 180 	 time= 13.480789466698964 min 	 lr= 1e-06 	 loss= 1.6729600843118162 	 error= 51.163265899736054 percent
+error rate on dataset = 51.34693955888554 percent
+ 
+epoch= 181 	 time= 13.554691326618194 min 	 lr= 5e-07 	 loss= 1.671779717717852 	 error= 51.020409258044495 percent
+error rate on dataset = 51.673469981368704 percent
+ 
+epoch= 182 	 time= 13.630796599388123 min 	 lr= 5e-07 	 loss= 1.6731161949585895 	 error= 50.87755164321588 percent
+error rate on dataset = 50.87755115664735 percent
+ 
+epoch= 183 	 time= 13.704509615898132 min 	 lr= 5e-07 	 loss= 1.6700843061719621 	 error= 50.897960151944844 percent
+error rate on dataset = 51.020408893118095 percent
+ 
+epoch= 184 	 time= 13.778362353642782 min 	 lr= 5e-07 	 loss= 1.6730935257308337 	 error= 50.81632696852392 percent
+error rate on dataset = 51.36734818925663 percent
+ 
+epoch= 185 	 time= 13.852667311827341 min 	 lr= 5e-07 	 loss= 1.6760746556885389 	 error= 51.34693968052767 percent
+error rate on dataset = 51.326531171798706 percent
+ 
+epoch= 186 	 time= 13.926966154575348 min 	 lr= 5e-07 	 loss= 1.672157849584307 	 error= 50.81632745509245 percent
+error rate on dataset = 50.87755164321588 percent
+ 
+epoch= 187 	 time= 14.001279660065968 min 	 lr= 5e-07 	 loss= 1.6745873470695651 	 error= 51.22449057442802 percent
+error rate on dataset = 51.18367380025436 percent
+ 
+epoch= 188 	 time= 14.075482054551442 min 	 lr= 5e-07 	 loss= 1.6738445272251052 	 error= 51.26530661874887 percent
+error rate on dataset = 50.73469475824006 percent
+ 
+epoch= 189 	 time= 14.150086784362793 min 	 lr= 5e-07 	 loss= 1.6748323537865464 	 error= 51.38775584649067 percent
+error rate on dataset = 51.53061273146648 percent
+ 
+epoch= 190 	 time= 14.22351371049881 min 	 lr= 5e-07 	 loss= 1.6717648749448815 	 error= 50.73469487988219 percent
+error rate on dataset = 51.65306171592401 percent
+ 
+epoch= 191 	 time= 14.297547248999278 min 	 lr= 5e-07 	 loss= 1.6688610315322876 	 error= 50.489797032609275 percent
+error rate on dataset = 51.020409136402364 percent
+ 
+epoch= 192 	 time= 14.373718857765198 min 	 lr= 5e-07 	 loss= 1.6769065029767094 	 error= 51.326531171798706 percent
+error rate on dataset = 51.83673561835776 percent
+ 
+epoch= 193 	 time= 14.448455246289571 min 	 lr= 5e-07 	 loss= 1.6713289849612178 	 error= 50.87755188650015 percent
+error rate on dataset = 51.204082917193986 percent
+ 
+epoch= 194 	 time= 14.522055395444234 min 	 lr= 5e-07 	 loss= 1.672003252165658 	 error= 50.81632769837672 percent
+error rate on dataset = 51.20408267390971 percent
+ 
+epoch= 195 	 time= 14.597386570771535 min 	 lr= 5e-07 	 loss= 1.6720968703834378 	 error= 50.77551104584519 percent
+error rate on dataset = 51.14285787757562 percent
+ 
+epoch= 196 	 time= 14.672954432169597 min 	 lr= 5e-07 	 loss= 1.6736069431110305 	 error= 51.10204195489689 percent
+error rate on dataset = 51.571429627282285 percent
+ 
+epoch= 197 	 time= 14.748623128732046 min 	 lr= 5e-07 	 loss= 1.679662166809549 	 error= 51.87755202760502 percent
+error rate on dataset = 51.00000087095766 percent
+ 
+epoch= 198 	 time= 14.821556488672892 min 	 lr= 5e-07 	 loss= 1.6768529901699143 	 error= 51.36734770268811 percent
+error rate on dataset = 50.83673572053715 percent
+ 
+epoch= 199 	 time= 14.896560307343801 min 	 lr= 5e-07 	 loss= 1.6729475308437736 	 error= 51.00000123588406 percent
+error rate on dataset = 51.16326577809392 percent
